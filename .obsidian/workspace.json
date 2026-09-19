@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ebeb3083113149dc",
+        "id": "f68af0e807960ee9",
         "type": "tabs",
         "children": [
           {
-            "id": "03f00f76cebc74a7",
+            "id": "ca27dba88c5ec648",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes/Programacion/java/Java ruta.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java ruta"
             }
           }
         ]
@@ -172,13 +176,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "44b01e07bf707523",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-github",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "custom-frames-github"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 304.36328125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,17 +207,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03f00f76cebc74a7",
+  "active": "ca27dba88c5ec648",
   "lastOpenFiles": [
+    "Apuntes/Programacion/python/Ruta de python.md",
+    "Apuntes/Programacion/C++/Arrayts en C++.md",
+    "Apuntes/Programacion/Mysql/Mysql ruta.md",
+    "Apuntes/Programacion/java/Java ruta.md",
+    "Apuntes/Programacion/JavaScript/Java script ruta.md",
+    "Apuntes/Programacion/apuntes.md",
+    "Apuntes/Programacion/python/python_guia.pdf",
+    "Apuntes/Programacion/Mysql/Conseptos de mysql.md",
+    "LICENSE",
     "Apuntes/Programacion/python/Sokects.md",
     "Pasted image 20260830201626.png",
-    "Apuntes/Programacion/python/python_guia.pdf",
     "Apuntes/Programacion/python/ruta.html",
     "Sin título.canvas",
     "Sin título.md",
     "Apuntes/Programacion/bash_guia.pdf",
-    "Apuntes/Programacion/apuntes.md",
-    "Apuntes/Programacion/Mysql/Conseptos de mysql.md",
     "Apuntes/Programacion/C++/Tipos de Datos en C++.md",
     "Apuntes/Programacion/JavaScript/Conseptos de mysql.md",
     "Apuntes/Programacion/java",
@@ -215,7 +236,6 @@
     "Apuntes/Programacion/C++/Funciones en C++.md",
     "Apuntes/Programacion/C++/condicionales en C++.md",
     "Apuntes/Programacion/C++/bucles en C++.md",
-    "Apuntes/Programacion/C++/Arrayts en C++.md",
     "2026-04-24.md",
     "Apuntes/Programacion/C++",
     "Apuntes/Ciberseguridad/redes",
@@ -226,14 +246,10 @@
     "Apuntes/Idiomas/Ingles/perfil-contexto.md",
     "Apuntes/Idiomas/Ingles/metodo.md",
     "Apuntes/Idiomas/Ingles/transcripts/mr-salas-council-2026-06-21.md",
-    "Apuntes/languajes",
     "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/ataque de fuerza bruta a red wifi.md",
     "Pasted image 20260216170114.png",
     "Pasted image 20260216165854.png",
     "Pasted image 20260216165708.png",
-    "Pasted image 20260216165649.png",
-    "Apuntes/Ciberseguridad/red team/Herramientas/osint/Holehe.md",
-    "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/Hping.md",
-    "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/Bettercap.md"
+    "Pasted image 20260216165649.png"
   ]
 }

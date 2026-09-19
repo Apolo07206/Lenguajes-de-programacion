@@ -1,0 +1,53 @@
+{
+  "frames": [
+    {
+      "url": "https://github.com/mouredev/Hello-Python",
+      "displayName": "python ruta ",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 0.9,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://github.com/mouredev/hello-javascript",
+      "displayName": "javascript ruta",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 0.9,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://github.com/mouredev/hello-java",
+      "displayName": "java ruta",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 0.9,
+      "forceIframe": false,
+      "customCss": "body{\nwith:100%,\nheigth:100%\n}",
+      "customJs": ""
+    },
+    {
+      "url": "https://github.com/mouredev/hello-sql",
+      "displayName": "mysql ruta",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 0.9,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}
