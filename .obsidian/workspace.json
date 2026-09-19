@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "0102808fa3a83c4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebeb3083113149dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03f00f76cebc74a7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "27a08f2a2cec3278",
+    "type": "split",
+    "children": [
+      {
+        "id": "eed0d18c6393b4d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b1cc7f0afd98ed0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "076f3f41cc478abc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "b1bcae8ff662b7fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b65c24942f26b27c",
+    "type": "split",
+    "children": [
+      {
+        "id": "254c04d9ec163130",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42bd9546b199bd38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Apuntes/Ciberseguridad/red team/Herramientas/osint/sherlock.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de sherlock"
+            }
+          },
+          {
+            "id": "02c17e49901daa5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Apuntes/Ciberseguridad/red team/Herramientas/osint/sherlock.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de sherlock"
+            }
+          },
+          {
+            "id": "c73bae51e34a94fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "a66160cd24af923a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "b2af307c64215624",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Apuntes/Ciberseguridad/red team/Herramientas/osint/sherlock.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de sherlock"
+            }
+          },
+          {
+            "id": "7ccc2a7d12b79502",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "03f00f76cebc74a7",
+  "lastOpenFiles": [
+    "Apuntes/Programacion/python/Sokects.md",
+    "Pasted image 20260830201626.png",
+    "Apuntes/Programacion/python/python_guia.pdf",
+    "Apuntes/Programacion/python/ruta.html",
+    "Sin título.canvas",
+    "Sin título.md",
+    "Apuntes/Programacion/bash_guia.pdf",
+    "Apuntes/Programacion/apuntes.md",
+    "Apuntes/Programacion/Mysql/Conseptos de mysql.md",
+    "Apuntes/Programacion/C++/Tipos de Datos en C++.md",
+    "Apuntes/Programacion/JavaScript/Conseptos de mysql.md",
+    "Apuntes/Programacion/java",
+    "Apuntes/Programacion/Mysql",
+    "Sin nombre",
+    "Apuntes/Idiomas/japones",
+    "Apuntes/Idiomas/Ingles/errores.md",
+    "Apuntes/Idiomas/_context.md",
+    "Apuntes/Programacion/C++/Punteros y referencias.md",
+    "Apuntes/Programacion/C++/Funciones en C++.md",
+    "Apuntes/Programacion/C++/condicionales en C++.md",
+    "Apuntes/Programacion/C++/bucles en C++.md",
+    "Apuntes/Programacion/C++/Arrayts en C++.md",
+    "2026-04-24.md",
+    "Apuntes/Programacion/C++",
+    "Apuntes/Ciberseguridad/redes",
+    "Apuntes/Ciberseguridad/redes/redes y protocolos.md",
+    "Apuntes/Ciberseguridad/redes/topologias de red.md",
+    "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/Hydra.md",
+    "Apuntes/Ciberseguridad/sistemas operativos/consepto.md",
+    "Apuntes/Idiomas/Ingles/perfil-contexto.md",
+    "Apuntes/Idiomas/Ingles/metodo.md",
+    "Apuntes/Idiomas/Ingles/transcripts/mr-salas-council-2026-06-21.md",
+    "Apuntes/languajes",
+    "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/ataque de fuerza bruta a red wifi.md",
+    "Pasted image 20260216170114.png",
+    "Pasted image 20260216165854.png",
+    "Pasted image 20260216165708.png",
+    "Pasted image 20260216165649.png",
+    "Apuntes/Ciberseguridad/red team/Herramientas/osint/Holehe.md",
+    "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/Hping.md",
+    "Apuntes/Ciberseguridad/red team/Herramientas/explotacion/Bettercap.md"
+  ]
+}
