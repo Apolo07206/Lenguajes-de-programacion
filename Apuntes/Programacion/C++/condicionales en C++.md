@@ -1,15 +1,17 @@
 
-# Condicionales en C++: `if`, `else` y `switch`
+# Condicionales en C++: if, else y switch
+
+
 
 Las estructuras condicionales permiten que tu programa **tome decisiones** y ejecute distinto código según si una condición es verdadera (`true`) o falsa (`false`).
 
 ## 1. Cheat Sheet Comparativo
 
-|**Estructura**|**¿Cuándo usarla?**|**Ejemplo de uso**|
-|---|---|---|
-|**`if` / `else if` / `else`**|Evaluaciones complejas, **rangos** (`> 18`), o **múltiples condiciones** (`&&`, `\|`).|Evaluar notas, edades o temperaturas.|
-|**`switch`**|Comparar una sola variable **entera o caracter (`char`)** contra **valores exactos**.|Menús de opciones, días de la semana.|
-|**Operador Ternario**|Condicionales ultra cortos en **una sola línea** de código.|Asignaciones rápidas de variables.|
+| **Estructura**                | **¿Cuándo usarla?**                                                                    | **Ejemplo de uso**                    |
+| ----------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------- |
+| **`if` / `else if` / `else`** | Evaluaciones complejas, **rangos** (`> 18`), o **múltiples condiciones** (`&&`, `\|`). | Evaluar notas, edades o temperaturas. |
+| **`switch`**                  | Comparar una sola variable **entera o caracter (`char`)** contra **valores exactos**.  | Menús de opciones, días de la semana. |
+| **Operador Ternario**         | Condicionales ultra cortos en **una sola línea** de código.                            | Asignaciones rápidas de variables.    |
 
 ## 2. Código de Ejemplo Completo
 

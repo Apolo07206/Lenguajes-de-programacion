@@ -1,0 +1,81 @@
+/* ReadyStack Warm Dark — ReadyStack
+ * Warm, low-glare dark. Amber on paper-dark; comments recede, keywords lead.
+ * Built from one contrast ladder. Every value below is generated, not eyeballed.
+ * https://getreadystack.com
+ */
+.theme-dark {
+  --background-primary: #16110D;
+  --background-primary-alt: #1D1611;
+  --background-secondary: #1D1611;
+  --background-secondary-alt: #231B15;
+  --background-modifier-hover: #291F19;
+  --background-modifier-active-hover: #33271F;
+  --background-modifier-border: #4E4037;
+  --background-modifier-border-hover: #5C4C42;
+  --background-modifier-border-focus: #6E5B4E;
+  --background-modifier-error: #D98A7A;
+  --background-modifier-success: #78C49B;
+
+  --text-normal: #F0E7DB;
+  --text-muted: #BD9665;
+  --text-faint: #966F40;
+  --text-on-accent: #000000;
+  --text-accent: #E4BE79;
+  --text-accent-hover: #EDD3A3;
+  --text-selection: #3D2E24;
+  --text-highlight-bg: #3D2E24;
+  --text-error: #D98A7A;
+  --text-success: #78C49B;
+
+  --interactive-normal: #231B15;
+  --interactive-hover: #291F19;
+  --interactive-accent: #E4BE79;
+  --interactive-accent-hover: #EDD3A3;
+
+  --h1-color: #E4BE79;
+  --h2-color: #E0C89A;
+  --h3-color: #8FB8D8;
+  --h4-color: #8FC8C0;
+  --h5-color: #BD9665;
+  --h6-color: #BD9665;
+
+  --link-color: #E4BE79;
+  --link-color-hover: #EDD3A3;
+  --link-external-color: #8FB8D8;
+  --link-external-color-hover: #B5D0E5;
+  --link-unresolved-color: #D98A7A;
+
+  --code-background: #231B15;
+  --code-normal: #DFCCB4;
+  --code-comment: #966F40;
+  --code-function: #8FB8D8;
+  --code-important: #D98A7A;
+  --code-keyword: #E4BE79;
+  --code-operator: #D4BA9B;
+  --code-property: #D8A0B4;
+  --code-punctuation: #C6A47B;
+  --code-string: #78C49B;
+  --code-tag: #E0C89A;
+  --code-value: #E9A46B;
+
+  --blockquote-border-color: #E4BE79;
+  --hr-color: #4E4037;
+  --tag-color: #E4BE79;
+  --tag-background: #291F19;
+  --checkbox-color: #E4BE79;
+  --checkbox-color-hover: #EDD3A3;
+  --scrollbar-thumb-bg: #4E4037;
+  --scrollbar-active-thumb-bg: #5C4C42;
+
+  --graph-line: #5C4C42;
+  --graph-node: #BD9665;
+  --graph-node-focused: #E4BE79;
+  --graph-node-tag: #78C49B;
+  --graph-node-attachment: #D8A0B4;
+
+  --table-header-background: #231B15;
+  --table-row-alt-background: #1D1611;
+  --titlebar-background: #1D1611;
+  --titlebar-background-focused: #231B15;
+  --divider-color: #4E4037;
+}

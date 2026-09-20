@@ -1,5 +1,14 @@
 {
   "accentColor": "#e60a0a",
   "theme": "obsidian",
-  "cssTheme": ""
+  "cssTheme": "",
+  "nativeMenus": false,
+  "interfaceFontFamily": "Noto Serif Display,DejaVu Serif,Noto Serif CJK TC",
+  "textFontFamily": "Noto Serif Display,DejaVu Serif,Noto Serif CJK TC",
+  "monospaceFontFamily": "Noto Serif Display,DejaVu Serif,Noto Serif CJK TC",
+  "enabledCssSnippets": [
+    "Basilica_Romana",
+    "ghotic"
+  ],
+  "showRibbon": true
 }

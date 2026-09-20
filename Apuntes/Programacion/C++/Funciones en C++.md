@@ -1,10 +1,10 @@
 ## 1. Guía Rápida (Tipos de Parámetros)
 
-|**Tipo**|**Sintaxis**|**¿Modifica el original?**|**Uso principal**|
-|---|---|---|---|
-|**Por Valor**|`void f(int x)`|❌ No (crea copia)|Datos simples (`int`, `bool`, `char`).|
-|**Por Referencia**|`void f(int &x)`|2 Sí (directo)|Cuando necesitas modificar la variable original.|
-|**Por Ref. Constante**|`void f(const string &s)`|❌ No (solo lectura)|Texto (`string`) o datos grandes, para evitar copias lentas.|
+| **Tipo**               | **Sintaxis**              | **¿Modifica el original?** | **Uso principal**                                            |
+| ---------------------- | ------------------------- | -------------------------- | ------------------------------------------------------------ |
+| **Por Valor**          | `void f(int x)`           | ❌ No (crea copia)          | Datos simples (`int`, `bool`, `char`).                       |
+| **Por Referencia**     | `void f(int &x)`          | 2 Sí (directo)             | Cuando necesitas modificar la variable original.             |
+| **Por Ref. Constante** | `void f(const string &s)` | ❌ No (solo lectura)        | Texto (`string`) o datos grandes, para evitar copias lentas. |
 
 ## 2. Código de Ejemplo Completo
 
@@ -83,3 +83,7 @@ int main() {
     - Sí $\rightarrow$ Usa el tipo (`int`, `double`, `string`).
         
     - No $\rightarrow$ Usa `void`
+
+
+
+
