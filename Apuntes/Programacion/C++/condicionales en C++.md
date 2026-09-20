@@ -1,3 +1,12 @@
+---
+title: condicionales en C++
+area: programacion
+tipo: lenguaje
+tags: [programacion, cpp]
+created: 2026-09-20
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Rutas]]"]
+---
 
 # Condicionales en C++: if, else y switch
 
@@ -93,3 +102,8 @@ int main() {
     ```
     if (!estaLloviendo) { ... } // Si NO esta lloviendo
     ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Rutas]]

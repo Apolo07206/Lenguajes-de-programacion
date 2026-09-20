@@ -1,3 +1,12 @@
+---
+title: switch-case
+area: programacion
+tipo: lenguaje
+tags: [programacion, javascript]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
+---
 
 En JavaScript, el ritual **switch–case** es una especie de puesto de control para decisiones múltiples. En lugar de encadenar `if` tras `if`, declaras una sola entrada y luego comparas contra distintos “casos”. Cada caso es una posible ruta que el código puede tomar.
 
@@ -61,3 +70,8 @@ switch (dia) {
     console.log("Opción no válida");
     break;
 }
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Ruta JavaScript]]

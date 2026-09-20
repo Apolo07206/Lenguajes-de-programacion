@@ -58,3 +58,7 @@ tags: [ingles, errores, feedback]
 - **Problema:** TikTok nocturno → dormir tarde → jaqueca → ansiedad por no entender → filtro afectivo activado
 - **Realidad:** Es una cadena física, no un problema de método
 - **Solución:** Romper el ciclo en el primer eslabón: apagar el teléfono a las 10pm
+
+## Ver también
+
+

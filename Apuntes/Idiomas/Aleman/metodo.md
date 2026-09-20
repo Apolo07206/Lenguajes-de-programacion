@@ -32,3 +32,7 @@ tags: [aleman, metodo, rutina]
 | Domingo   |           |          |
 
 ## Notas sobre el método
+
+## Ver también
+
+

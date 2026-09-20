@@ -1,4 +1,16 @@
-https://russ0ski.github.io/MyHackingRoad/
+---
+title: apuntes normales
+area: ciberseguridad
+tipo: nota
+tags: [ciberseguridad, red-team, miscelanea]
+created: 2026-01-26
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Sockets]]", "[[Permisos, Servicios y Logs en Linux]]"]
+---
+
+> ⚠️ Nota miscelánea en proceso de atomización. Ya enlazada al second brain. Secciones: terminal/TTY → [[Permisos, Servicios y Logs en Linux]] · ping/scan → [[Nmap]] · netcat/sockets → [[Sockets]] · revshells → [[Metasploit]]/[[MSFvenom]] · privesc → https://gtfobins.org/ + [[John The Ripper]].
+> Roadmap: https://russ0ski.github.io/MyHackingRoad/
+
 # cambiar la apariencia de la terminal 
 despues de haer hecho el ataque en una maquina linux como lo es la metasploitable 2 
 podemos usar el siguiente comando para cambiar la apariencia de la terminal  :
@@ -77,3 +89,11 @@ https://gtfobins.org/
 
 
 https://www.revshells.com/
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Sockets]]
+- [[Permisos, Servicios y Logs en Linux]]

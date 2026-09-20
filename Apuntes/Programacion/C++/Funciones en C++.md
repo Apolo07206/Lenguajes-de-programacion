@@ -1,3 +1,13 @@
+---
+title: Funciones en C++
+area: programacion
+tipo: lenguaje
+tags: [programacion, cpp]
+created: 2026-09-19
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Rutas]]"]
+---
+
 ## 1. Guía Rápida (Tipos de Parámetros)
 
 | **Tipo**               | **Sintaxis**              | **¿Modifica el original?** | **Uso principal**                                            |
@@ -87,3 +97,8 @@ int main() {
 
 
 
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Rutas]]

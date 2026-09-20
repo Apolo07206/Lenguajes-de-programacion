@@ -1,3 +1,13 @@
+---
+title: Holehe
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, osint]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]"]
+---
+
 Tool de **OSINT** que permite verificar si un correo electrónico está registrado en múltiples servicios populares. No revela contraseñas ni datos internos, solo confirma presencia. Útil en **reconocimiento temprano** y **perfilado inicial** de objetivos.
 
 
@@ -128,3 +138,9 @@ Ideal para:
 - Auditoría de exposición digital
     
 - Investigaciones privadas con autorización
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]

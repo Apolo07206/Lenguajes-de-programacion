@@ -1,3 +1,13 @@
+---
+title: conceptos
+area: ciberseguridad
+tipo: fundamento
+tags: [ciberseguridad, sistemas-operativos]
+created: 2026-01-17
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[Permisos, Servicios y Logs en Linux]]", "[[conceptos basicos]]"]
+---
+
 # Sistemas Operativos y Ciberseguridad
 
 ## Concepto Fundamental
@@ -105,3 +115,9 @@ Un **sistema operativo (SO)** es el software fundamental que gestiona los recurs
 Aplica el principio de mínimo privilegio en todas las cuentas. Deshabilita servicios y características innecesarias. Implementa autenticación multifactor para accesos administrativos. Cifra datos en reposo y en tránsito. Mantén inventario actualizado de software instalado. Realiza auditorías de seguridad periódicas. Implementa whitelisting de aplicaciones cuando sea posible. Monitorea logs centralizadamente. Segmenta la red para limitar propagación de compromisos. Establece políticas de contraseñas robustas. Capacita usuarios sobre ingeniería social. Realiza backups regulares y prueba restauraciones. Implementa EDR (Endpoint Detection and Response) para detección avanzada.
 
 El sistema operativo es el fundamento sobre el cual se construye toda la seguridad informática. Un SO comprometido invalida cualquier control de seguridad implementado sobre él, por lo que su protección debe ser prioridad máxima en cualquier estrategia de ciberseguridad.
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[Permisos, Servicios y Logs en Linux]]
+- [[conceptos basicos]]

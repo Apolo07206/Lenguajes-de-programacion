@@ -1,3 +1,13 @@
+---
+title: Permisos, Servicios y Logs en Linux
+area: ciberseguridad
+tipo: fundamento
+tags: [ciberseguridad, linux, privesc]
+created: 2026-01-17
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[conceptos]]", "[[Persistencia por ssh linux]]", "[[John The Ripper]]"]
+---
+
 ## Usuarios y Permisos en Linux
 
 ### Tipos de usuarios
@@ -1018,3 +1028,10 @@ echo $PATH
 - **Autenticación fuerte**: Usar llaves SSH en lugar de contraseñas
 
 **Piensa en Linux como un edificio:** los permisos son las cerraduras, los servicios son las habitaciones siempre abiertas, los logs son las cámaras de seguridad, cron son los eventos programados automáticamente, y la elevación de privilegios es cuando alguien encuentra la forma de conseguir la llave maestra sin autorización.
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[conceptos]]
+- [[Persistencia por ssh linux]]
+- [[John The Ripper]]

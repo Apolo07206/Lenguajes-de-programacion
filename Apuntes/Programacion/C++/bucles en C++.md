@@ -1,3 +1,13 @@
+---
+title: bucles en C++
+area: programacion
+tipo: lenguaje
+tags: [programacion, cpp]
+created: 2026-09-19
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Rutas]]"]
+---
+
 # Bucles en C++: `for`, `while` y `do-while`
 
 Los bucles se usan para repetir un bloque de código varias veces. La elección depende de **si sabes de antemano cuántas veces vas a repetir el proceso**.
@@ -70,3 +80,8 @@ for (int i = 1; i <= 5; i++) {
     cout << i << " ";     // Imprime: 1 2 4
 }
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Rutas]]

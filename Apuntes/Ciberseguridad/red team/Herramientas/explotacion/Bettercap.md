@@ -1,3 +1,13 @@
+---
+title: Bettercap
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-09-20
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]"]
+---
+
 Framework de ataque y monitoreo de redes. Funciona como “control de tráfico” en LAN: detecta dispositivos, intercepta paquetes, engaña protocolos y modifica tráfico en tiempo real. Es la evolución de Ettercap.
 
 https://youtu.be/ER9S6sI-QLI?si=awUu7zjauqa2Igut
@@ -37,7 +47,7 @@ sudo bettercap
 net.probe on 
 ```
 
-![[Pasted image 20260216165708.png]]
+![[Assets/Pasted image 20260216165708.png]]
 
 
 si queremos algo mas visual usamos el siguiente comando :
@@ -46,7 +56,7 @@ ticker on
 ```
 se veria de la siguiente manera 
 
-![[Pasted image 20260216165854.png]]
+![[Assets/Pasted image 20260216165854.png]]
 
 ## 4 identificar la puerta de enlace:
 para este ataque debemos primero identificar la puerta de enlace o la gateway (router)
@@ -124,3 +134,10 @@ set dns.spoof.domains ubuntu.com ## ubuntu.com es un ejemplo pero se puede usar 
 set dns.spoof.address 192.168.1.5 # Tu IP de Kali 
 dns.spoof on
 ```
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]

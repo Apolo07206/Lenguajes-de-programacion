@@ -1,3 +1,13 @@
+---
+title: conseptos basicos
+area: ciberseguridad
+tipo: fundamento
+tags: [ciberseguridad, windows]
+created: 2026-01-17
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[conceptos]]"]
+---
+
 ## PowerShell
 
 **¿Qué es?** PowerShell es como una "línea de comandos mejorada" de Windows. Mientras que CMD (el símbolo del sistema tradicional) es básico, PowerShell es mucho más poderoso y te permite automatizar tareas y administrar el sistema completo.
@@ -243,3 +253,8 @@ schtasks /query /fo LIST /v
 6. **Borrar rastros**: Limpiar registros de eventos
 
 **Consejo final para tus apuntes:** Piensa en Windows como una casa. Los servicios son las puertas y ventanas, el registro de eventos es la cámara de seguridad, PowerShell es una herramienta que puede ser usada para bien o mal, Active Directory es el sistema de llaves maestras, y la elevación de privilegios es cuando alguien encuentra la forma de conseguir la llave maestra sin permiso.
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[conceptos]]

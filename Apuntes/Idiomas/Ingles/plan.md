@@ -50,3 +50,7 @@ Ser políglota. Viajar a Italia, Suiza, Alemania, Holanda, Escocia, Brasil. Usar
 - No empezar alemán hasta tener B2 sólido en inglés
 - El inglés es el vehículo económico — enfocarse ahí primero
 - El sueño es el cuello de botella #1, más importante que cualquier ajuste de método
+
+## Ver también
+
+

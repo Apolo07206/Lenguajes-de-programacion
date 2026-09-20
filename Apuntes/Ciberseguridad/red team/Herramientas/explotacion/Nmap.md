@@ -1,3 +1,13 @@
+---
+title: Nmap
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[Wireshark]]", "[[Searchsploit]]"]
+---
+
 ## ¿Qué es Nmap?
 
 Herramienta para escanear redes y descubrir hosts, puertos abiertos, servicios y vulnerabilidades.
@@ -712,3 +722,12 @@ bash
 /usr/share/wordlists/dirb/common.txt
 /usr/share/seclists/Discovery/DNS/subdomains-top1million.txt
 ```
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[Wireshark]]
+- [[Searchsploit]]

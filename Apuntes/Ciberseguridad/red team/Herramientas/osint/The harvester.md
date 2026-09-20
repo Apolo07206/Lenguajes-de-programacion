@@ -1,3 +1,13 @@
+---
+title: The harvester
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, osint]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]"]
+---
+
 Herramienta OSINT para recolectar información pública de objetivos específicos (normalmente dominios). Saca correos, subdominios, hosts, nombres y otros datos desde buscadores, servicios públicos y motores especiales.
 
 No ataca. Solo junta datos para abrir rutas.
@@ -245,3 +255,9 @@ Combina como un puzzle:
 Ejemplo:
 
 `theHarvester -> amass -> httpx -> nuclei`
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]

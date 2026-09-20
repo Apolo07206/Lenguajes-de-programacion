@@ -1,3 +1,13 @@
+---
+title: SQLmap
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[Conceptos de mysql]]", "[[burpsuite]]"]
+---
+
 ## ¿Qué es SQLMap?
 
 Herramienta automática para detectar y explotar vulnerabilidades de inyección SQL en aplicaciones web.
@@ -549,3 +559,12 @@ sqlmap -u "http://example.com/page.php?id=1" -D webapp --tables
 # Buscar tabla que parezca de admin
 sqlmap -u "http://example.com/page.php?id=1" -D webapp -T admin --dump
 ```
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[Conceptos de mysql]]
+- [[burpsuite]]

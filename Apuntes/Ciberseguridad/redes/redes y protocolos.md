@@ -1,3 +1,13 @@
+---
+title: redes y protocolos
+area: ciberseguridad
+tipo: fundamento
+tags: [ciberseguridad, redes]
+created: 2026-01-17
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]"]
+---
+
 ## Concepto Fundamental
 
 Las **redes** son infraestructuras que permiten la comunicación entre dispositivos mediante la transferencia de datos. Los **protocolos** son el conjunto de reglas y estándares que gobiernan cómo se transmite, formatea y procesa esa información. En ciberseguridad, comprender ambos es crítico porque cada protocolo y arquitectura de red presenta vectores de ataque específicos y requiere controles de seguridad particulares.
@@ -75,3 +85,9 @@ Cada capa del modelo OSI presenta amenazas específicas:
 ## Mejores Prácticas
 
 Implementa el principio de mínimo privilegio en todos los niveles de red. Mantén inventarios actualizados de dispositivos y servicios. Realiza análisis de vulnerabilidades periódicos. Cifra todo el tráfico sensible. Segmenta la red según criticidad y función. Monitorea continuamente el tráfico en busca de anomalías. Mantén parches y actualizaciones al día. Documenta arquitectura de red y flujos de datos. Implementa autenticación multifactor para accesos administrativos.
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]

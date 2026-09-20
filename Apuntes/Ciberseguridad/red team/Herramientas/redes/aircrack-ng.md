@@ -1,3 +1,13 @@
+---
+title: aircrack-ng
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, redes]
+created: 2026-01-19
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Wireshark]]"]
+---
+
 Suite de herramientas para **auditoría WiFi**, enfocada en redes **802.11**. Permite capturar tráfico, evaluar seguridad y crackear claves WEP o WPA-PSK mediante análisis de Handshake.
 
 Incluye varias utilidades: captura, inyección, monitoreo, análisis y ataque.
@@ -156,3 +166,10 @@ Flujo:
     
 
 ---
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Wireshark]]

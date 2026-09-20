@@ -24,3 +24,7 @@ Ferney usó esta estructura sin haberla estudiado formalmente — señal de **ad
 
 ## Por qué es importante que lo hayas usado sin estudiarlo
 La adquisición ocurre cuando el cerebro internaliza patrones a través de input comprensible, no mediante reglas memorizadas. Que hayas outputteado esta estructura espontáneamente significa que tu cerebro ya la está procesando como parte de tu inglés internalizado.
+
+## Ver también
+
+

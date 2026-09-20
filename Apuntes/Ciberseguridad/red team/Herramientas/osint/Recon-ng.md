@@ -1,3 +1,13 @@
+---
+title: Recon-ng
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, osint]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]"]
+---
+
 **Recon-ng** es un framework modular de **OSINT** (Open Source Intelligence) que automatiza la recolección de información pública sobre objetivos (dominios, personas, empresas). Tiene una **CLI interactiva**, base de datos integrada y más de 80 módulos para distintos propósitos.
 
 Se asemeja por estilo a Metasploit (con comandos como `show`, `modules`, `options`, etc.), pero enfocado en **inteligencia de fuentes abiertas**.
@@ -125,3 +135,9 @@ Puedes generar reportes automáticamente si quieres compartir o analizar con otr
     
 
 ---
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]

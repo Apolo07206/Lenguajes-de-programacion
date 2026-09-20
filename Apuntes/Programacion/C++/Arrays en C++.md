@@ -1,4 +1,12 @@
-
+---
+title: Arrays en C++
+area: programacion
+tipo: lenguaje
+tags: [programacion, cpp]
+created: 2026-09-16
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Rutas]]"]
+---
 
 La forma de añadir, actualizar y eliminar elementos en C++ depende de si usas **Arrays Tradicionales** o la alternativa moderna recomendada: **`std::vector`**.
 
@@ -84,3 +92,8 @@ int main() {
 | **Añadir al final**          | `array[tamano++] = valor;` _(requiere espacio reservado)_ | `vec.push_back(valor);`       |
 | **Eliminar al final**        | `tamano--;`                                               | `vec.pop_back();`             |
 | **Eliminar en posición $i$** | Desplazar manualmente con un bucle `for`                  | `vec.erase(vec.begin() + i);` |
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Rutas]]

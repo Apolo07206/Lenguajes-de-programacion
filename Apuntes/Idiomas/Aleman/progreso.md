@@ -28,3 +28,7 @@ tags: [aleman, progreso]
 | Fecha       | Nivel | Notas |
 |-------------|-------|-------|
 | 2026-06-20  | A0    | Aún no empiezo |
+
+## Ver también
+
+

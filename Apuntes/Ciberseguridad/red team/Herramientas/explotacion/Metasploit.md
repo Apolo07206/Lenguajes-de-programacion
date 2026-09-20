@@ -1,3 +1,13 @@
+---
+title: Metasploit
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[MSFvenom]]", "[[Searchsploit]]"]
+---
+
 # Metasploit Framework
 
 Metasploit es un framework de explotación que reúne exploits, payloads, auxiliares, post-explotación y herramientas de enumeración en una sola interfaz. Se usa para pruebas de penetración y validación de vulnerabilidades.
@@ -170,3 +180,12 @@ Ejemplos que probablemente verás en Metasploitable:
 `use exploit/unix/misc/distcc_exec`
 
 ---
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[MSFvenom]]
+- [[Searchsploit]]

@@ -1,3 +1,13 @@
+---
+title: Hping
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]"]
+---
+
 Herramienta para crear y enviar paquetes TCP, UDP e ICMP personalizados. Sirve para:
 
 - Reconocimiento de hosts
@@ -228,3 +238,10 @@ Además conecta bien con tu interés en Red Team.
 ## Frase del pingüino
 
 “Hping es como hablar TCP sin traductor. Si le pones flags, te responde con flags.” 🐧📡
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]

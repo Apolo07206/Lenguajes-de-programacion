@@ -1,3 +1,13 @@
+---
+title: Searchsploit
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]"]
+---
+
 Herramienta de `Exploit-DB` para buscar exploits, PoCs y referencias de vulnerabilidades desde la terminal. No descarga a lo loco; solo muestra lo que existe y te deja copiar lo necesario.
 
 Funciona online y offline, ideal para pentesting en entornos sin internet.
@@ -165,3 +175,10 @@ Searchsploit te dice si existe módulo MSF cuando aparece algo como:
 Entonces puedes:
 
 `msfconsole search <cve>`
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]

@@ -84,3 +84,7 @@ Peppa Pig (80%) → Gravity Falls (30-70%) → Pokémon XY (30-70%) → Podcasts
 - Ciclos emocionales de euforia → crisis → euforia son normales en adquisición
 - El gym (BDNF) y la programación (reconocimiento de patrones) son ventajas cognitivas reales
 - **No empezar alemán hasta tener B2 sólido en inglés (aprox. 8-12 meses más)**
+
+## Ver también
+
+

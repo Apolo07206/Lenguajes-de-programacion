@@ -1,3 +1,13 @@
+---
+title: sherlock
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, osint]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]"]
+---
+
 Herramienta OSINT que busca un nombre de usuario en decenas de sitios web, redes sociales y plataformas para decirte dónde existe esa cuenta y dónde no.
 
 Sirve para:
@@ -214,3 +224,9 @@ Ejecutar con Tor:
 `torsocks python3 sherlock <usuario>`
 
 ---
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]

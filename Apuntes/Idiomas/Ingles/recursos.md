@@ -43,3 +43,7 @@ tags: [ingles, recursos]
 - Language Reactor (extensión para Netflix con subs sincronizados)
 - HelloTalk / Discord servers para writing
 - iTalki para speaking cuando llegue el momento
+
+## Ver también
+
+

@@ -1,3 +1,13 @@
+---
+title: mr-salas-council-2026-06-21
+area: idiomas
+tipo: transcript
+tags: [ingles, transcript]
+created: 2026-06-21
+updated: 2026-09-20
+related: ["[[MOC-idiomas]]", "[[metodo]]", "[[progreso]]"]
+---
+
 # Mr. Salas Council — Transcripción Completa
 ## Fecha: 2026-06-21
 
@@ -87,3 +97,9 @@ Los subtítulos de Netflix no coinciden con lo que los personajes dicen, pero ig
 **Bloqueador #1:** Sueño deficiente (TikTok nocturno)
 **Meta inmediata:** Dormir bien + mantener consistencia
 **Meta mediana:** B1 completo (~octubre 2026)
+
+## Ver también
+
+- [[MOC-idiomas]]
+- [[metodo]]
+- [[progreso]]

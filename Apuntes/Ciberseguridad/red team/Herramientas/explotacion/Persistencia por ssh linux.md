@@ -1,3 +1,12 @@
+---
+title: Persistencia por ssh linux
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-02-08
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[Permisos, Servicios y Logs en Linux]]", "[[conceptos]]"]
+---
 
 # 📌 Persistencia por SSH usando llaves (SSH Key Persistence)
 
@@ -103,3 +112,12 @@ Para root:
 para conectarse 
 
 ejemplo : ` ssh -i ~/.ssh/id_rsa root@172.17.0.2
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[Permisos, Servicios y Logs en Linux]]
+- [[conceptos]]

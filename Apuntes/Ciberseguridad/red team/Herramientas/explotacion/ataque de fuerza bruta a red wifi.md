@@ -1,3 +1,13 @@
+---
+title: ataque de fuerza bruta a red wifi
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-28
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]"]
+---
+
 # Ataque de Fuerza Bruta a WiFi con Aircrack-ng
 
 > ⚠️ **ADVERTENCIA LEGAL**: Esta guía es únicamente con fines educativos. Solo realiza estas pruebas en TU PROPIA red WiFi o con autorización escrita del propietario. Acceder a redes ajenas sin permiso es un DELITO PENAL en todos los países.
@@ -258,3 +268,10 @@ sudo airmon-ng stop wlan0mon
 # Reiniciar NetworkManager
 sudo systemctl restart NetworkManager
 ```
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]

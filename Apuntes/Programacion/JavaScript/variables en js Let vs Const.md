@@ -1,4 +1,12 @@
-
+---
+title: variables en js Let vs Const
+area: programacion
+tipo: lenguaje
+tags: [programacion, javascript]
+created: 2026-01-17
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
+---
 
 ## ¿Qué es una variable?
 
@@ -102,3 +110,8 @@ total = total + (total * IVA);
 
 console.log(total); // 96.9
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Ruta JavaScript]]

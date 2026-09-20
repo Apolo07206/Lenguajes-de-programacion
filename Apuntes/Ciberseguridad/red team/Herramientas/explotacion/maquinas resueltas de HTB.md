@@ -1,3 +1,12 @@
+---
+title: maquinas resueltas de HTB
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-02-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]"]
+---
 
 # 🕺 Dancing (SMB)
 
@@ -142,3 +151,10 @@ Era:
 Patrón aprendido:
 
 > Si MySQL expuesto permite login root sin password → enumera bases.
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]

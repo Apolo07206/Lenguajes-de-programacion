@@ -1,3 +1,12 @@
+---
+title: condicionales
+area: programacion
+tipo: lenguaje
+tags: [programacion, javascript]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
+---
 
 # ejemplos 
 
@@ -69,3 +78,8 @@ if (condición1) {
 `0 === "0"          // false 0 === false        // false "5" === 5          // false null === undefined // false`
 
 
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Ruta JavaScript]]

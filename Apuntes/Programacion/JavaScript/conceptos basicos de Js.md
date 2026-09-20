@@ -1,4 +1,12 @@
-
+---
+title: conseptos basicos de Js
+area: programacion
+tipo: lenguaje
+tags: [programacion, javascript]
+created: 2026-01-17
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
+---
 
 ## 1️⃣ Tres formas de aplicar JavaScript en HTML
 
@@ -190,3 +198,8 @@ html
   <script src="main.js"></script>
 </body>
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Ruta JavaScript]]

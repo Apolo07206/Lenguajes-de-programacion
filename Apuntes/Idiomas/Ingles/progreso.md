@@ -84,3 +84,7 @@ Secundarios: Lectura en Voz Alta (pilar roto desde inicio, sigue pendiente), Ank
 
 ## Pilar de reserva
 **Hajime no Ippo (Netflix) queda como reserva estratégica**, no como foco diario. Es contenido compelling, con subs desalineados, que ya confirmó listening real. Úsalo cuando necesites volver a un input cómodo o cuando la inconsistencia de días malos te haga dudar del nivel real.
+
+## Ver también
+
+

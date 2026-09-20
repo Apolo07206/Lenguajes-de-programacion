@@ -42,3 +42,7 @@ tags: [ingles, listening]
 2. Alternar con Pokémon XY o podcasts para mantener variedad
 3. Probar episodios SIN subs por 5-10 min para medir oído real
 4. Aprovechar gym para listening pasivo (5-7h/semana extra)
+
+## Ver también
+
+

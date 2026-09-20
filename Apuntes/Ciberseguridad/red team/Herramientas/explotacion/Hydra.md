@@ -1,3 +1,13 @@
+---
+title: Hydra
+area: ciberseguridad
+tipo: herramienta
+tags: [ciberseguridad, red-team, explotacion]
+created: 2026-01-18
+updated: 2026-09-20
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[John The Ripper]]", "[[ataque de fuerza bruta a red wifi]]"]
+---
+
 ## ¿Qué es Hydra?
 
 Herramienta de fuerza bruta para crackear credenciales de servicios de red. Soporta más de 50 protocolos diferentes.
@@ -741,3 +751,12 @@ hydra -L users.txt -P passwords.txt -M targets.txt ssh
 # Con opciones completas
 hydra -L users.txt -P passwords.txt -e nsr -f -u -t 16 -v -o results.txt ssh://192.168.1.1
 ```
+
+## Ver también
+
+- [[MOC-ciberseguridad]]
+- [[red-team-killchain]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[John The Ripper]]
+- [[ataque de fuerza bruta a red wifi]]
