@@ -1,14 +1,26 @@
+---
+title: bucles en C++
+area: programacion
+tipo: lenguaje
+tags: [programacion, cpp]
+created: 2026-09-19
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Rutas]]"]
+---
+
 # Bucles en C++: `for`, `while` y `do-while`
 
 Los bucles se usan para repetir un bloque de código varias veces. La elección depende de **si sabes de antemano cuántas veces vas a repetir el proceso**.
 
 ## 1. Cheat Sheet Comparativo
 
-|**Bucle**|**¿Cuándo usarlo?**|**¿Cuándo evalúa la condición?**|**Mínimo de ejecuciones**|
-|---|---|---|---|
-|**`for`**|Sabes exactamente **cuántas veces** repetirás el bloque (ej. de 1 a 10).|Al inicio|0 veces|
-|**`while`**|No sabes cuántas veces, depende de **una condición** (ej. mientras el usuario no ponga '0').|Al inicio|0 veces|
-|**`do-while`**|Necesitas que el código se ejecute **al menos una vez** antes de comprobar la condición.|Al final|**1 vez**|
+
+
+| **Bucle**      | **¿Cuándo usarlo?**                                                                          | **¿Cuándo evalúa la condición?** | **Mínimo de ejecuciones** |
+| -------------- | -------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------- |
+| **`for`**      | Sabes exactamente **cuántas veces** repetirás el bloque (ej. de 1 a 10).                     | Al inicio                        | 0 veces                   |
+| **`while`**    | No sabes cuántas veces, depende de **una condición** (ej. mientras el usuario no ponga '0'). | Al inicio                        | 0 veces                   |
+| **`do-while`** | Necesitas que el código se ejecute **al menos una vez** antes de comprobar la condición.     | Al final                         | **1 vez**                 |
 
 ## 2. Código de Ejemplo
 
@@ -68,3 +80,8 @@ for (int i = 1; i <= 5; i++) {
     cout << i << " ";     // Imprime: 1 2 4
 }
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Rutas]]

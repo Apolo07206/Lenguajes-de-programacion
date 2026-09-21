@@ -1,3 +1,13 @@
+---
+title: Punteros y referencias
+area: programacion
+tipo: lenguaje
+tags: [programacion, cpp]
+created: 2026-09-16
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Rutas]]"]
+---
+
 Markdown
 
 ````
@@ -148,3 +158,8 @@ return 0;
 
 }
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Rutas]]

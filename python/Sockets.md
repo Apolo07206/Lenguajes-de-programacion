@@ -1,3 +1,12 @@
+---
+title: Sockets
+area: programacion
+tipo: lenguaje
+tags: [programacion, python]
+created: 2026-09-18
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Ruta Python]]", "[[Sockets]]", "[[redes y protocolos]]", "[[apuntes normales]]"]
+---
 
 ## ¿ Para que sirbe sockets ?
 
@@ -164,3 +173,11 @@ cliente.close()
 cliente()
 
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Ruta Python]]
+- [[Sockets]]
+- [[redes y protocolos]]
+- [[apuntes normales]]

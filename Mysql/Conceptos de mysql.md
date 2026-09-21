@@ -1,3 +1,12 @@
+---
+title: Conceptos de mysql
+area: programacion
+tipo: lenguaje
+tags: [programacion, mysql]
+created: 2026-09-18
+updated: 2026-09-20
+related: ["[[MOC-programacion]]", "[[Ruta Mysql]]", "[[SQLmap]]"]
+---
 
 ## 1. DDL (Data Definition Language) - Manejo de Tablas y Base de Datos
 
@@ -358,3 +367,9 @@ SELECT
     DATE_FORMAT(fecha_nacimiento, '%d-%b-%Y') AS fecha_texto 
 FROM estudiante;
 ```
+
+## Ver también
+
+- [[MOC-programacion]]
+- [[Ruta Mysql]]
+- [[SQLmap]]
