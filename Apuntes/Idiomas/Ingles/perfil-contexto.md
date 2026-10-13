@@ -1,12 +1,12 @@
 ---
+title: Perfil de Contexto — Ferney (Inglés)
+area: idiomas
 idioma: ingles
 tipo: perfil-contexto
-created: 2026-06-21
-descripcion: >
-  Archivo maestro de contexto para la IA. Contiene todo lo esencial
-  sobre Ferney, su método, progreso, desafíos y ajustes. Léelo
-  completo al inicio de cada conversación para tener contexto.
 tags: [ingles, contexto, perfil]
+created: 2026-06-21
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/metodo|metodo (inglés)]]", "[[Idiomas/Ingles/progreso|progreso (inglés)]]"]
 ---
 
 # Perfil de Contexto — Ferney (Inglés)
@@ -24,10 +24,10 @@ tags: [ingles, contexto, perfil]
 ## Método
 **Refold / Mr. Salas — Input Comprensible (Stephen Krashen)**
 
-### Los 3 Pilares
-1. **Inmersión** ✅ 1-2h diaria (fuerte)
-2. **Anki** ⚠️ Diario pero variable (necesita estructura fija de 10 min)
-3. **Lectura en Voz Alta** ❌ Inconsistente (pilar más débil)
+### Los 3 Pilares (21-sep-2026)
+1. **Inmersión activa** ✅ 1h/día (podcasts B2 núcleo + Naruto consolidación + Chris choque 10-15%) + **pasiva Minecraft aparte** (no cuenta para B1)
+2. **Anki** ✅ Racha firme
+3. **Lectura en Voz Alta** ⚠️ Ocasional (pilar más débil, mejoró de ❌ a ocasional)
 
 ### Filosofía
 - Los idiomas se *adquieren* (subconsciente), no se *aprenden* (reglas conscientes)
@@ -53,34 +53,42 @@ tags: [ingles, contexto, perfil]
 - **Usó Present Perfect Continuous sin estudiarlo** (prueba de adquisición real)
 - Empezó a pensar en inglés sin traducir
 
-### Mes 2-3 (Actual)
-- **Hajime no Ippo en Netflix** — contenido favorito actual
-- Subs desalineados (NO coinciden con el audio) — pero entiende sin leerlos
-- Descubrimiento clave: subs desalineados fuerzan procesamiento auditivo real (1.5x-2x eficiencia)
-- Estado de flow: 3 caps seguidos (1 hora) sin sentir el tiempo
-- Alterna con Pokémon XY y podcasts B1
+### Mes 4-5 (Sep 2026 — corte 21-sep, 4m21d)
+- Rotación actual: podcasts B2 70-80% + Naruto 70-80% + pelis live-action (Men in Black, Pursuit aguanta 2h) + Everybody Hates Chris 30-40%
+- Pokémon pausado por pereza. Ippo en reserva. Pasiva con Minecraft para sumar sin fatiga
+- Anki firme, lectura ocasional, sueño mejorado
 
-## Nivel Actual
-**A2 alto → B1 en transición**
+### Mes 5 (Oct 2026 — corte 03-oct, 5m3d)
+- **Cambio de contenido:** Naruto pasa a reserva. Nuevo núcleo: **Tokyo Ghoul** + **Attack on Titan** (anime oscuro, diálogo rápido, vocabulario complejo)
+- Podcasts B2 se mantienen como núcleo i+1
+- Este es un salto de nivel intencional — contenido más desafiante para forzar el siguiente nivel
+- Si la comprensión cae al 40-50% al inicio, es normal (patrón de transición)
+
+## Nivel Actual (03-oct-2026)
+**B1 en consolidación, toques B2 en input estructurado**
 
 | Habilidad | Nivel | % hacia B1 |
 |-----------|-------|------------|
-| Listening | B1 (nativos rápidos, TikToks, Ippo sin subs) | ~70% |
-| Writing | A2+/B1- (conectores, Present Perfect Continuous) | ~65% |
-| Reading | B1 (subs, contenido nativo) | ~B1 |
-| Speaking | A2 (no entrenado) | ~5% |
-| Gramática | A2 core con B1 glimpses | ~60% |
+| Listening | B1-B2 en podcast 70-80%, B1 en Naruto 70-80%, en adaptación con Tokyo Ghoul/AoT | ~80% |
+| Writing | B1 | ~70% |
+| Reading | B1 | ~B1 |
+| Speaking | A2+ (no entrenado) | ~10% |
+| Gramática | B1 core con destellos B2 | ~70% |
 
-Horas acumuladas: ~83-100h en ~2.5 meses (~1.4h/día)
-Meta: subir a 2-3h/día
+Horas acumuladas: ~156h activas (1h/día × 156 días, 30-abr-2026 a 03-oct-2026 = 5m3d). Pasiva Minecraft aparte.
+Meta: subir a 2h/día activas con rotación B2/Tokyo Ghoul/AoT dosificado
 
-## Contenido Actual
+## Contenido Actual (03-oct-2026)
 | Contenido | Comprensión | Rol |
 |-----------|-------------|-----|
-| Hajime no Ippo (Netflix) | 50-60% (subs desalineados) | Contenido compelling, i+1 |
-| Pokémon XY | 50-70% | Variedad, consolidación |
-| Podcasts B1 | 50-80% | Entrenamiento oído puro |
-| TikToks nativos | 70-75% | Input real (limitar a 20 min, antes de 10pm) |
+| Podcasts B2 | 70-80% | Oído limpio, núcleo i+1 |
+| **Tokyo Ghoul** | **40-60% (en adaptación)** | **Nuevo núcleo — anime oscuro, diálogo rápido** |
+| **Attack on Titan** | **40-60% (en adaptación)** | **Nuevo núcleo — anime oscuro, diálogo rápido** |
+| Naruto | 70-80% | En reserva estratégica (contenido cómodo) |
+| Men in Black / Pursuit | aguanta 2h | Salto live-action (completado) |
+| Everybody Hates Chris | 30-40% | Choque nativo calle/slang (en proceso) |
+| Minecraft + fondo | pasiva aparte | No cuenta para B1, solo exposición |
+| Hajime no Ippo | reserva | Ancla cómoda |
 
 ## Logros Clave
 - Pasó de Peppa Pig a contenido nativo en 2 meses
@@ -98,12 +106,11 @@ Meta: subir a 2-3h/día
 - Gerundio vs infinitivo
 - Consistencia en worse/worst, better/best
 
-### De Enfoque (críticas)
-1. **Sueño (prioridad #1)** — TikTok nocturno, dormir tarde, jaquecas recurrentes
-2. **Filtro afectivo** — Ansiedad, presión familiar (papá), ciclos euforia-crisis
-3. **Sobreingeniería** — Mide más de lo que hace. El idioma no es código
-4. **Necesidad de validación** — Pregunta "¿voy bien?" repetidamente
-5. **Lectura en Voz Alta** — Pilar más descuidado
+### De Enfoque (21-sep-2026)
+1. **Sueño mejorado** — ya no es #1, mantener
+2. **Diferencia por formato** — Chris 30-40% vs B2/Naruto 70-80% es normal, no retroceso
+3. **Horas separadas** — activa 1h/día cuenta para B1 (~144h de 400-600h), pasiva aparte. Acumular hasta 300h activas
+4. **Lectura en Voz Alta** — ocasional, sigue pilar débil
 
 ## Hallazgos del Mr. Salas Council
 
@@ -146,4 +153,9 @@ Meta: subir a 2-3h/día
 
 ## Ver también
 
+- [[Idiomas/Ingles/progreso|progreso (inglés)]]
+- [[Idiomas/Ingles/metodo|metodo (inglés)]]
+- [[Idiomas/Ingles/plan|plan (inglés)]]
+- [[Idiomas/Ingles/recursos|recursos (inglés)]]
+- [[MOC-idiomas]]
 

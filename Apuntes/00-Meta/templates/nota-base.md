@@ -4,7 +4,7 @@ area: ciberseguridad|programacion|idiomas
 tipo: herramienta|fundamento|lenguaje|nota
 tags: []
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 related: []
 ---
 

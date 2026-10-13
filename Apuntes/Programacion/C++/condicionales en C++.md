@@ -4,7 +4,7 @@ area: programacion
 tipo: lenguaje
 tags: [programacion, cpp]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-programacion]]", "[[Rutas]]"]
 ---
 

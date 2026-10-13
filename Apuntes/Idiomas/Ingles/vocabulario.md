@@ -1,8 +1,12 @@
 ---
+title: Vocabulario - Inglés
+area: idiomas
 idioma: ingles
 tipo: vocabulario
-created: 2026-06-20
 tags: [ingles, vocabulario]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/errores|errores (inglés)]]", "[[Idiomas/Ingles/progreso|progreso (inglés)]]"]
 ---
 
 # Vocabulario - Inglés
@@ -40,4 +44,8 @@ tags: [ingles, vocabulario]
 
 ## Ver también
 
+- [[Idiomas/Ingles/progreso|progreso (inglés)]]
+- [[Idiomas/Ingles/metodo|metodo (inglés)]]
+- [[Idiomas/Ingles/errores|errores (inglés)]]
+- [[MOC-idiomas]]
 

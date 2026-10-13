@@ -1,9 +1,12 @@
 ---
+title: Recursos - Inglés
+area: idiomas
 idioma: ingles
 tipo: recursos
-created: 2026-06-20
-updated: 2026-06-21
 tags: [ingles, recursos]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/metodo|metodo (inglés)]]", "[[Idiomas/Ingles/progreso|progreso (inglés)]]"]
 ---
 
 # Recursos - Inglés
@@ -14,22 +17,29 @@ tags: [ingles, recursos]
 | Mr. Salas | Método Refold | Todos | Base del método |
 | Peppa Pig | Serie infantil | A1 | 80% comprensión al inicio |
 | Gravity Falls | Serie animada | A2 | 30-70% variable |
-| Pokémon XY | Serie animada | A2-B1 | Buen contenido, lo disfrutaba |
-| **Hajime no Ippo** | **Anime boxeo (Netflix)** | **B1** | **Contenido favorito actual. 50-60% con subs desalineados. Subs NO coinciden con el audio — lo que fuerza procesamiento auditivo real. Lo ve por gusto, no por obligación. Estado de flow: 3 caps seguidos sin sentir el tiempo.** |
+| Pokémon XY | Serie animada | A2-B1 | Pausado por pereza sep-2026 |
+| **Hajime no Ippo** | **Anime boxeo (Netflix)** | **B1** | **En reserva estratégica. 50-60% subs desalineados. Sirve como ancla cómoda.** |
+| Naruto | Anime | B1 | En reserva estratégica oct-2026. 70-80%. |
+| **Tokyo Ghoul** | **Anime oscuro** | **B1-B2** | **Nuevo núcleo oct-2026. Diálogo rápido, vocabulario complejo.** |
+| **Attack on Titan** | **Anime oscuro** | **B1-B2** | **Nuevo núcleo oct-2026. Diálogo rápido, vocabulario complejo.** |
+| Men in Black / The Pursuit of Happyness | Pelis live-action | B1-B2 | Salto a nativo real. Aguanta 2h completas |
+| Everybody Hates Chris | Comedia live-action | B2 | Foco choque nativo sep-2026. 30-40%. Slang/ritmo calle |
 | Death Note (futuro) | Anime thriller | B1-B2 | Pendiente para cuando suba nivel |
 
 ## Podcasts
 | Podcast | Nivel | Progreso |
 |---------|-------|----------|
 | Varios A1-A2 | A1-A2 | Dominados |
-| Varios B1 | B1 | 50-80% — en progreso |
+| Varios B1 | B1 | 50-80% — superado |
+| Varios B2 | B2 | 70-80% al 20-sep-2026 — foco actual |
 
 ## Otras fuentes
 | Fuente | Uso | Notas |
 |--------|-----|-------|
 | TikTok nativos | Input real velocidad natural | 70-75% comprensión — debe limitarse a 20 min antes de 10pm |
-| Anki | Repaso espaciado | 10 min diarios fijos |
-| **Netflix** | **Hajime no Ippo** | **Suscrito para contenido compelling. Vale la pena.** |
+| Anki | Repaso espaciado | Racha firme al 20-sep-2026 |
+| Minecraft + podcast fondo | Inmersión pasiva | Acumular horas sin fatiga |
+| **Netflix** | **Tokyo Ghoul / Attack on Titan** | **Nuevo foco oct-2026** |
 | Gym + podcasts | Listening pasivo | Slot dorado no aprovechado: 5-7h/semana de input gratis |
 
 ## Técnicas
@@ -46,4 +56,8 @@ tags: [ingles, recursos]
 
 ## Ver también
 
+- [[Idiomas/Ingles/progreso|progreso (inglés)]]
+- [[Idiomas/Ingles/metodo|metodo (inglés)]]
+- [[Idiomas/Ingles/plan|plan (inglés)]]
+- [[MOC-idiomas]]
 

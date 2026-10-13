@@ -1,10 +1,10 @@
 ---
-title: conseptos basicos
+title: conceptos basicos
 area: ciberseguridad
 tipo: fundamento
 tags: [ciberseguridad, windows]
 created: 2026-01-17
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-ciberseguridad]]", "[[conceptos]]"]
 ---
 

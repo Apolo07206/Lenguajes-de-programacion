@@ -1,8 +1,12 @@
 ---
+title: Recursos - Alemán
+area: idiomas
 idioma: aleman
 tipo: recursos
-created: 2026-06-20
 tags: [aleman, recursos]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Aleman/plan|plan (alemán)]]", "[[Idiomas/Ingles/recursos|recursos (inglés)]]"]
 ---
 
 # Recursos - Alemán
@@ -39,4 +43,6 @@ tags: [aleman, recursos]
 
 ## Ver también
 
-
+- [[MOC-idiomas]]
+- [[Idiomas/Aleman/plan|plan (alemán)]]
+- [[Idiomas/Ingles/recursos|recursos (inglés)]]

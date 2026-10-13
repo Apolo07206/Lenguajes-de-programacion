@@ -4,7 +4,7 @@ area: ciberseguridad
 tipo: moc
 tags: [moc, ciberseguridad]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[HOME]]", "[[red-team-killchain]]"]
 ---
 
@@ -15,7 +15,7 @@ related: ["[[HOME]]", "[[red-team-killchain]]"]
 ## Fundamentos
 
 - [[redes y protocolos]] — modelo OSI, TCP/IP, DNS, SMB, ((base de todo))
-- [[topologias de red]] — ![[Assets/Pasted image 20260830201626.png]]
+- [[topologias de red]] — ![[Assets/topologia-red.png]]
 - [[conceptos]] — hub de sistemas operativos (kernel, procesos, memoria, hardening)
 - [[conceptos basicos]] (Windows) — UAC, AD, SMB, registro, Event Logs
 - [[Permisos, Servicios y Logs en Linux]] — permisos/SUID/sudo, systemd, logs, cron, privesc checklist

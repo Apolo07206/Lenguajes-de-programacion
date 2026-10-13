@@ -4,8 +4,8 @@ area: ciberseguridad
 tipo: nota
 tags: [ciberseguridad, red-team, miscelanea]
 created: 2026-01-26
-updated: 2026-09-20
-related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Sockets]]", "[[Permisos, Servicios y Logs en Linux]]"]
+updated: 2026-10-12
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Sockets]]", "[[Permisos, Servicios y Logs en Linux]]", "[[redes y protocolos]]", "[[Rutas]]", "[[Ruta Python]]", "[[Ruta Mysql]]", "[[MOC-programacion]]", "[[Metasploit]]", "[[MSFvenom]]", "[[John The Ripper]]"]
 ---
 
 > ⚠️ Nota miscelánea en proceso de atomización. Ya enlazada al second brain. Secciones: terminal/TTY → [[Permisos, Servicios y Logs en Linux]] · ping/scan → [[Nmap]] · netcat/sockets → [[Sockets]] · revshells → [[Metasploit]]/[[MSFvenom]] · privesc → https://gtfobins.org/ + [[John The Ripper]].
@@ -97,3 +97,12 @@ https://www.revshells.com/
 - [[Nmap]]
 - [[Sockets]]
 - [[Permisos, Servicios y Logs en Linux]]
+- [[redes y protocolos]]
+- [[Rutas]]
+- [[Ruta Python]]
+- [[Ruta Mysql]]
+- [[MOC-programacion]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[MSFvenom]]
+- [[John The Ripper]]

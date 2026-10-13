@@ -4,14 +4,13 @@ area: ciberseguridad
 tipo: herramienta
 tags: [ciberseguridad, red-team, explotacion]
 created: 2026-01-18
-updated: 2026-09-20
-related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[Wireshark]]", "[[Searchsploit]]"]
+updated: 2026-10-12
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Metasploit]]", "[[Wireshark]]", "[[Searchsploit]]", "[[redes y protocolos]]", "[[Sockets]]", "[[apuntes normales]]"]
 ---
 
 ## ¿Qué es Nmap?
 
 Herramienta para escanear redes y descubrir hosts, puertos abiertos, servicios y vulnerabilidades.
-
 
 https://youtu.be/xrPtMRE3YME?si=UAhXZcCQpruTSTBx
 ---
@@ -727,7 +726,9 @@ bash
 
 - [[MOC-ciberseguridad]]
 - [[red-team-killchain]]
-- [[Nmap]]
 - [[Metasploit]]
 - [[Wireshark]]
 - [[Searchsploit]]
+- [[redes y protocolos]]
+- [[Sockets]]
+- [[apuntes normales]]

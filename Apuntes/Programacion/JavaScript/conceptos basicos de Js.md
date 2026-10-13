@@ -1,11 +1,11 @@
 ---
-title: conseptos basicos de Js
+title: conceptos basicos de Js
 area: programacion
 tipo: lenguaje
 tags: [programacion, javascript]
 created: 2026-01-17
-updated: 2026-09-20
-related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
+updated: 2026-10-12
+related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]", "[[Rutas]]"]
 ---
 
 ## 1️⃣ Tres formas de aplicar JavaScript en HTML
@@ -101,13 +101,13 @@ Hoy se prefiere usar `console.log()` para depuración porque:
 
 javascript
 
-````javascript
+````
 console.log("Funcionando sin molestar al usuario");
 ```
 
 ---
 
-## 3️⃣ Cómo usar JavaScript externo con `src=""`
+##  Cómo usar JavaScript externo con `src=""`
 
 ### **Estructura básica del proyecto:**
 ```
@@ -203,3 +203,4 @@ html
 
 - [[MOC-programacion]]
 - [[Ruta JavaScript]]
+- [[Rutas]]

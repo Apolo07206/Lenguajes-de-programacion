@@ -2,10 +2,10 @@
 title: SQLmap
 area: ciberseguridad
 tipo: herramienta
-tags: [ciberseguridad, red-team, explotacion]
+tags: [ciberseguridad, red-team, explotacion, sql]
 created: 2026-01-18
-updated: 2026-09-20
-related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[Conceptos de mysql]]", "[[burpsuite]]"]
+updated: 2026-10-12
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Conceptos de mysql]]", "[[Ruta Mysql]]", "[[Rutas]]", "[[burpsuite]]", "[[Nmap]]", "[[Searchsploit]]"]
 ---
 
 ## ¿Qué es SQLMap?

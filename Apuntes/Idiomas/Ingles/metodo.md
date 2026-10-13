@@ -1,9 +1,12 @@
 ---
+title: Método de estudio - Inglés
+area: idiomas
 idioma: ingles
 tipo: metodo
-created: 2026-06-20
-updated: 2026-06-21
 tags: [ingles, metodo, rutina]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/progreso|progreso (inglés)]]", "[[Idiomas/Ingles/plan|plan (inglés)]]"]
 ---
 
 # Método de estudio - Inglés
@@ -15,7 +18,8 @@ tags: [ingles, metodo, rutina]
 Los idiomas se **adquieren** (proceso subconsciente), no se **aprenden** (estudio consciente de reglas). La gramática se desarrolla por exposición al contexto, no por memorización. El "filtro afectivo" (ansiedad, estrés, falta de sueño) bloquea la adquisición sin importar la calidad del input.
 
 ### Tres pilares (Mr. Salas):
-1. **Inmersión activa/pasiva** — consumir contenido nativo (series, películas, podcasts) con audio y subtítulos en inglés
+1. **Inmersión activa (1h/día, cuenta para B1)** — podcasts B2 (núcleo i+1) + **Tokyo Ghoul** + **Attack on Titan** (nuevo núcleo, anime oscuro, diálogo rápido) + Naruto (consolidación/reserva) + Chris/pelis choque dosificado, con audio y subtítulos en inglés
+1b. **Inmersión pasiva aparte (Minecraft)** — fondo mientras juega, no cuenta igual (~0.2-0.3x), solo exposición
 2. **Anki** — repaso espaciado, 10-15 min diarios fijos, 15-20 tarjetas nuevas
 3. **Lectura en voz alta (con audio)** — entrena oído y fonética simultáneamente. **Pilar actualmente más descuidado.**
 
@@ -28,7 +32,7 @@ Cuando los subs NO coinciden con el audio, el cerebro no puede hacer "lectura pe
 Si el contenido no es genuinamente interesante, el cerebro se desconecta. Hajime no Ippo funciona porque Ferney lo disfruta — no lo ve como estudio. El disfrute es el motor de la consistencia.
 
 ### Periodo de Silencio
-No forzar speaking hasta tener cientos de horas de input. La fluidez surge naturalmente. Ferney está en ~100h — aún en periodo de silencio.
+No forzar speaking hasta tener cientos de horas de input. La fluidez surge naturalmente. Ferney está en ~144h activas (21-sep-2026) — aún en periodo de silencio (meta 300h+ para pensar en output).
 
 ### Horas, no Meses
 El progreso se mide en horas de exposición real, no en tiempo calendario. B1: ~400-600h. B2: ~800-1200h.
@@ -75,7 +79,7 @@ Llega a casa ~10pm. **Meta: dormir a las 10:30pm.**
 | TikTok | Input nativo real (con timer) | Limitado a 20 min antes de 10pm |
 
 ## Progresión de contenido en escucha
-Peppa Pig (80%) → Gravity Falls (30-70%) → Pokémon XY (30-70%) → Podcasts A1-A2 (dominados) → Podcasts B1 (50-80%) → TikToks nativos (70-75%) → **Hajime no Ippo Netflix (50-60%, subs desalineados, contenido compelling)**
+Peppa Pig (80%) → Gravity Falls (30-70%) → Pokémon XY (30-70%) → Podcasts A1-A2 (dominados) → Podcasts B1 (50-80%) → TikToks nativos (70-75%) → Hajime no Ippo Netflix (50-60%, subs desalineados) → Podcasts B2 70-80% (núcleo) + Naruto 70-80% (consolidación) + Everybody Hates Chris 30-40% (choque) + Men in Black / Pursuit (salto live-action) → **Tokyo Ghoul + Attack on Titan (03-oct-2026, salto de nivel intencional — anime oscuro, diálogo rápido, vocabulario complejo)**
 
 ## Notas sobre el método
 - La transición de leer subtítulos a priorizar el oído causa caída temporal en comprensión → no es retroceso real
@@ -87,4 +91,9 @@ Peppa Pig (80%) → Gravity Falls (30-70%) → Pokémon XY (30-70%) → Podcasts
 
 ## Ver también
 
+- [[Idiomas/Ingles/progreso|progreso (inglés)]]
+- [[Idiomas/Ingles/plan|plan (inglés)]]
+- [[Idiomas/Ingles/vocabulario|vocabulario (inglés)]]
+- [[Idiomas/Ingles/errores|errores (inglés)]]
+- [[MOC-idiomas]]
 

@@ -4,8 +4,8 @@ area: ciberseguridad
 tipo: herramienta
 tags: [ciberseguridad, red-team, redes]
 created: 2026-01-18
-updated: 2026-09-20
-related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Wireshark]]", "[[TCPdump]]", "[[Bettercap]]"]
+updated: 2026-10-12
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[TCPdump]]", "[[Bettercap]]"]
 ---
 
 # ¿ que es  wireshark ?
@@ -19,6 +19,5 @@ para entender como funciona esta herramienta  entra a este enlace :  https://you
 - [[MOC-ciberseguridad]]
 - [[red-team-killchain]]
 - [[Nmap]]
-- [[Wireshark]]
 - [[TCPdump]]
 - [[Bettercap]]

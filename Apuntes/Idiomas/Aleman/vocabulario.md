@@ -1,8 +1,12 @@
 ---
+title: Vocabulario - Alemán
+area: idiomas
 idioma: aleman
 tipo: vocabulario
-created: 2026-06-20
 tags: [aleman, vocabulario]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Aleman/errores|errores (alemán)]]", "[[Idiomas/Ingles/vocabulario|vocabulario (inglés)]]"]
 ---
 
 # Vocabulario - Alemán
@@ -34,4 +38,6 @@ tags: [aleman, vocabulario]
 
 ## Ver también
 
-
+- [[MOC-idiomas]]
+- [[Idiomas/Aleman/errores|errores (alemán)]]
+- [[Idiomas/Ingles/vocabulario|vocabulario (inglés)]]

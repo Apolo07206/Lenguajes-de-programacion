@@ -4,8 +4,8 @@ area: programacion
 tipo: lenguaje
 tags: [programacion, mysql]
 created: 2026-09-18
-updated: 2026-09-20
-related: ["[[MOC-programacion]]", "[[Ruta Mysql]]", "[[SQLmap]]"]
+updated: 2026-10-12
+related: ["[[MOC-programacion]]", "[[Ruta Mysql]]", "[[Rutas]]", "[[SQLmap]]", "[[Búsquedas avanzadas]]", "[[WHERE y operadores]]", "[[Uniendo tablas]]", "[[Ordenando y eliminando duplicados]]", "[[Consultas básicas con SELECT]]"]
 ---
 
 ## 1. DDL (Data Definition Language) - Manejo de Tablas y Base de Datos
@@ -368,8 +368,26 @@ SELECT
 FROM estudiante;
 ```
 
+
+**1. Índices en MySQL:** es lo más fácil y de mayor retorno. Ya ves MySQL en el SENA, así que lo puedes estudiar en paralelo. Un índice es como el índice de un libro: en vez de revisar fila por fila (`full table scan`), MySQL salta directo al dato.
+
+sql
+
+```sql
+CREATE INDEX idx_correo ON usuarios(correo);
+SELECT * FROM usuarios WHERE correo = 'eduardo@gmail.com';  -- ahora es rápido
+```
+
+Para practicar: crea una tabla con 100.000+ filas, usa `EXPLAIN` antes y después del índice, y compara. Mira también que tiene costo: hace más lentos los `INSERT`.
+
 ## Ver también
 
 - [[MOC-programacion]]
 - [[Ruta Mysql]]
+- [[Rutas]]
 - [[SQLmap]]
+- [[Búsquedas avanzadas]]
+- [[WHERE y operadores]]
+- [[Uniendo tablas]]
+- [[Ordenando y eliminando duplicados]]
+- [[Consultas básicas con SELECT]]

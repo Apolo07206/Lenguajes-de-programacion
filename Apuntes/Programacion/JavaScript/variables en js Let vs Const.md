@@ -4,7 +4,7 @@ area: programacion
 tipo: lenguaje
 tags: [programacion, javascript]
 created: 2026-01-17
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
 ---
 
@@ -16,7 +16,7 @@ Un **espacio en memoria** donde guardas un valor para usarlo después.
 
 ## Las 2 formas modernas de declarar variables
 
-||`let`|`const`|
+|`let`|`const`|
 |---|---|---|
 |**¿Cambia?**|✅ SÍ|❌ NO|
 |**Sintaxis**|`let edad = 25;`|`const PI = 3.14;`|
@@ -115,3 +115,4 @@ console.log(total); // 96.9
 
 - [[MOC-programacion]]
 - [[Ruta JavaScript]]
+- [[Rutas]]

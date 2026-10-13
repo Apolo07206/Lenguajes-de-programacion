@@ -1,0 +1,353 @@
+/* ============================================================
+   RETABLO BARROCO — Gótico Católico Barroco
+   Paleta: Negro profundo, Plateado, Carmesí/vino, Marfil
+   Snippet CSS para Obsidian
+   NOTA: solo los blockquotes usan fuente serif/cursiva (pedido
+   explícito). El resto del tema NO toca tipografía.
+   ============================================================ */
+
+:root {
+  --rb-black: #08070a;
+  --rb-black-alt: #0f0d10;
+  --rb-stone: #171418;
+  --rb-panel: #1c191d;
+
+  --rb-silver: #6b7580;          /* plateado apagado */
+  --rb-silver-bright: #9ba6b3;   /* plateado clásico */
+  --rb-silver-pale: #c5d0db;     /* highlight puntual */
+
+  --rb-wine: #5c1220;            /* vino/carmesí secundario */
+  --rb-wine-bright: #8f1c2e;
+
+  --rb-ivory: #e3e0d8;           /* texto principal, neutro */
+  --rb-ivory-dim: #99948a;
+}
+
+/* ---------- Variables nativas de Obsidian ---------- */
+body.theme-dark {
+  --background-primary: var(--rb-black);
+  --background-primary-alt: var(--rb-black-alt);
+  --background-secondary: var(--rb-stone);
+  --background-secondary-alt: var(--rb-panel);
+  --background-modifier-border: #2c2620;
+  --background-modifier-hover: rgba(155, 166, 179, 0.1);
+  --background-modifier-active-hover: rgba(197, 208, 219, 0.18);
+
+  --text-normal: var(--rb-ivory);
+  --text-muted: var(--rb-ivory-dim);
+  --text-faint: #665f54;
+  --text-accent: var(--rb-silver-bright);
+  --text-accent-hover: var(--rb-silver-pale);
+  --text-on-accent: var(--rb-ivory);
+  --text-selection: rgba(197, 208, 219, 0.2);
+  --text-error: var(--rb-wine-bright);
+
+  --interactive-normal: var(--rb-panel);
+  --interactive-hover: #241f1a;
+  --interactive-accent: var(--rb-silver);
+  --interactive-accent-hover: var(--rb-silver-bright);
+
+  --divider-color: #2c2620;
+  --titlebar-background: #050405;
+  --titlebar-background-focused: #0a0808;
+
+  --scrollbar-bg: #050405;
+  --scrollbar-thumb-bg: #3a3128;
+  --scrollbar-active-thumb-bg: var(--rb-silver);
+
+  --tag-color: var(--rb-silver-bright);
+  --tag-background: rgba(155, 166, 179, 0.1);
+  --tag-border-color: var(--rb-silver);
+
+  --checkbox-color: var(--rb-silver-bright);
+  --checkbox-border-color: var(--rb-silver);
+
+  --blockquote-border-color: var(--rb-silver-bright);
+  --code-normal: var(--rb-ivory);
+  --code-background: #131010;
+  --code-border-color: #2c2620;
+
+  --table-border-color: #4a4238;
+}
+
+/* ---------- Fondo: negro con destellos plateados muy tenues ---------- */
+.workspace,
+.workspace-tabs {
+  background:
+    radial-gradient(ellipse 55% 45% at 20% 10%, rgba(155,166,179,0.06), transparent 65%),
+    radial-gradient(ellipse 55% 45% at 85% 90%, rgba(92,18,32,0.05), transparent 65%),
+    var(--rb-black);
+}
+
+/* ---------- Aparición de nota ---------- */
+@keyframes rbReveal {
+  from { opacity: 0; transform: translateY(3px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.workspace-leaf-content[data-type="markdown"] .markdown-preview-view,
+.workspace-leaf-content[data-type="markdown"] .cm-editor {
+  animation: rbReveal 0.5s ease-out;
+}
+
+/* ---------- H1: marfil con borde plateado, marca ornamental fija ---------- */
+.markdown-preview-view h1,
+.markdown-rendered h1,
+.cm-header-1 {
+  color: var(--rb-ivory) !important;
+  border-bottom: 2px solid var(--rb-silver);
+  padding-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+.markdown-preview-view h1::before,
+.markdown-rendered h1::before {
+  content: "†";
+  display: inline-block;
+  margin-right: 10px;
+  color: var(--rb-silver-bright);
+}
+.markdown-preview-view h1::after,
+.markdown-rendered h1::after {
+  content: "⚜";
+  color: var(--rb-silver-bright); /* Cambiado a plateado */
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+/* ---------- Subtítulos: plateado apagado, jerarquía descendente ---------- */
+.markdown-preview-view h2,
+.markdown-rendered h2,
+.cm-header-2 {
+  color: var(--rb-silver-bright) !important;
+  border-bottom: 1px solid #2c2620;
+  padding-bottom: 3px;
+}
+.markdown-preview-view h3, .markdown-rendered h3, .cm-header-3 { color: var(--rb-silver) !important; }
+.markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6,
+.markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
+.cm-header-4, .cm-header-5, .cm-header-6 { color: var(--rb-ivory-dim) !important; }
+
+/* ---------- Enlaces: vino con hover plateado ---------- */
+.markdown-preview-view a,
+.cm-link, .cm-hmd-internal-link {
+  color: var(--rb-wine-bright) !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(143,28,46,0.5);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.markdown-preview-view a:hover,
+.cm-link:hover, .cm-hmd-internal-link:hover {
+  color: var(--rb-silver-bright) !important;
+  border-bottom: 1px solid var(--rb-silver-bright);
+}
+
+.markdown-preview-view strong { color: var(--rb-silver-bright); }
+.markdown-preview-view em { color: var(--rb-ivory-dim); }
+
+/* ---------- Listas: viñetas plateadas ---------- */
+.markdown-preview-view ul > li::marker { color: var(--rb-silver-bright); }
+.markdown-preview-view ol > li::marker { color: var(--rb-silver-bright); font-weight: 600; }
+
+/* ============================================================
+   BLOCKQUOTES — "Versículos": borde grueso plateado, serif, cursiva
+   ============================================================ */
+@keyframes silverSweep {
+  0%   { box-shadow: -4px 0 10px rgba(197,208,219,0.12); }
+  50%  { box-shadow: -4px 0 20px rgba(197,208,219,0.28); }
+  100% { box-shadow: -4px 0 10px rgba(197,208,219,0.12); }
+}
+.markdown-preview-view blockquote {
+  position: relative;
+  border-left: 5px solid var(--rb-silver-bright);
+  background: linear-gradient(90deg, rgba(197,208,219,0.06), transparent 85%);
+  padding: 14px 20px 14px 40px;
+  margin: 1.4em 0;
+  border-radius: 0 3px 3px 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  color: var(--rb-ivory);
+  animation: silverSweep 4s ease-in-out infinite;
+}
+.markdown-preview-view blockquote p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+}
+.markdown-preview-view blockquote::before {
+  content: "†";
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  font-style: normal;
+  font-family: initial;
+  color: var(--rb-silver-bright);
+  font-size: 1.1em;
+}
+.markdown-preview-view blockquote::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  right: 14px;
+  width: 24px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--rb-silver));
+}
+
+/* ---------- Código ---------- */
+.markdown-preview-view code {
+  background: var(--code-background);
+  color: var(--rb-silver-bright);
+  border: 1px solid var(--code-border-color);
+  border-radius: 2px;
+}
+.markdown-preview-view pre {
+  background: var(--code-background);
+  border: 1px solid var(--code-border-color);
+  border-left: 3px solid var(--rb-silver);
+  border-radius: 3px;
+}
+
+/* ---------- Resaltado ---------- */
+mark {
+  background: rgba(197, 208, 219, 0.28) !important;
+  color: var(--rb-black) !important;
+}
+
+/* ---------- HR: filigrana plateada barroca, con destello ---------- */
+@keyframes hrSilverShimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.markdown-preview-view hr {
+  position: relative;
+  border: none;
+  height: 2px;
+  margin: 2.4em 0;
+  background: linear-gradient(90deg,
+    transparent, var(--rb-silver), var(--rb-silver-pale), var(--rb-silver), transparent);
+  background-size: 250% 100%;
+  animation: hrSilverShimmer 6s linear infinite;
+}
+.markdown-preview-view hr::before {
+  content: "⚜";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--rb-silver-bright); /* Ya estaba plateado */
+  background: var(--rb-black);
+  padding: 0 10px;
+  font-size: 0.9em;
+}
+
+/* ---------- Tablas: bordes plateados neutros ---------- */
+.markdown-preview-view table,
+.markdown-rendered table {
+  border-collapse: collapse;
+  border: 1px solid var(--rb-silver) !important;
+}
+.markdown-preview-view table th,
+.markdown-rendered table th {
+  background: var(--rb-panel);
+  color: var(--rb-silver-bright);
+  border: 1px solid var(--rb-silver) !important;
+}
+.markdown-preview-view table td,
+.markdown-rendered table td {
+  border: 1px solid var(--rb-silver) !important;
+  color: var(--rb-ivory);
+}
+.markdown-preview-view table tr { transition: background 0.2s ease; }
+.markdown-preview-view table tr:hover td {
+  background: rgba(197, 208, 219, 0.06);
+}
+
+/* ---------- Checkboxes ---------- */
+.task-list-item-checkbox { accent-color: var(--rb-silver-bright); }
+.task-list-item-checkbox:checked {
+  filter: drop-shadow(0 0 3px var(--rb-silver));
+}
+.task-list-item:not(.is-checked) .task-list-item-checkbox {
+  box-shadow: 0 0 0 1px var(--rb-wine-bright);
+}
+
+/* ---------- Tags ---------- */
+.tag {
+  background: var(--tag-background) !important;
+  color: var(--rb-silver-bright) !important;
+  border: 1px solid var(--rb-silver) !important;
+  transition: all 0.2s ease;
+}
+.tag:hover {
+  background: rgba(197, 208, 219, 0.2) !important;
+  box-shadow: 0 0 8px rgba(197,208,219,0.35);
+}
+
+/* ---------- Sidebar ---------- */
+.nav-file-title, .nav-folder-title {
+  transition: background 0.2s ease, color 0.2s ease;
+  border-radius: 2px;
+}
+.nav-file-title:hover, .nav-folder-title:hover {
+  background: rgba(155, 166, 179, 0.12) !important;
+  color: var(--rb-silver-bright) !important;
+}
+.nav-file-title.is-active {
+  background: rgba(197, 208, 219, 0.18) !important;
+  color: var(--rb-ivory) !important;
+  box-shadow: -3px 0 0 var(--rb-silver-bright) inset;
+}
+
+/* ---------- Pestañas ---------- */
+.workspace-tab-header.is-active {
+  border-bottom: 2px solid var(--rb-silver-bright);
+  box-shadow: 0 2px 10px rgba(197,208,219,0.25);
+}
+.workspace-tab-header { transition: background 0.2s ease; }
+.workspace-tab-header:hover {
+  background: rgba(155, 166, 179, 0.1) !important;
+}
+
+/* ---------- Botones: elevación plateada ---------- */
+button, .mod-cta {
+  background: var(--rb-panel) !important;
+  color: var(--rb-ivory) !important;
+  border: 1px solid var(--rb-silver) !important;
+  transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+button:hover, .mod-cta:hover {
+  background: var(--rb-wine) !important;
+  border-color: var(--rb-silver-bright) !important;
+  box-shadow: 0 4px 14px rgba(197,208,219,0.3);
+  transform: translateY(-2px);
+}
+button:active, .mod-cta:active {
+  transform: scale(0.97);
+}
+
+/* ---------- Barra de estado ---------- */
+.status-bar {
+  background: #050405;
+  border-top: 1px solid #2c2620;
+  color: var(--rb-ivory-dim);
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #050405; }
+::-webkit-scrollbar-thumb {
+  background: var(--rb-silver);
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rb-silver-bright);
+}
+
+/* ---------- Caret: parpadeo de cirio plateado ---------- */
+@keyframes caretSilver {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.3; }
+}
+.cm-cursor {
+  border-left-color: var(--rb-silver-bright) !important;
+  animation: caretSilver 1.2s ease-in-out infinite;
+}

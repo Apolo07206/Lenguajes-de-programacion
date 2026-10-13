@@ -1,12 +1,14 @@
 ---
 title: HOME
+area: hub
 tipo: hub
 tags: [hub, second-brain]
+related: ["[[MOC-ciberseguridad]]", "[[MOC-programacion]]", "[[MOC-idiomas]]", "[[como-usar-este-vault]]"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 ---
 
-# Second Brain — Ferxxo
+# Second Brain — Ferxxo/Ferney
 
 Vault de apuntes. Todo cuelga de un MOC. Si una nota no tiene links, está huérfana.
 

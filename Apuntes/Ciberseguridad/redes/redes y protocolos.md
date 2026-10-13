@@ -4,7 +4,7 @@ area: ciberseguridad
 tipo: fundamento
 tags: [ciberseguridad, redes]
 created: 2026-01-17
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]"]
 ---
 

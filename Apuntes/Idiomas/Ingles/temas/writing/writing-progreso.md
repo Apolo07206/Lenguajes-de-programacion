@@ -1,9 +1,12 @@
 ---
+title: Writing - Evolución
+area: idiomas
 idioma: ingles
 tipo: nota-tema
-tema: writing
-created: 2026-06-20
 tags: [ingles, writing]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/errores|errores (inglés)]]", "[[Idiomas/Ingles/progreso|progreso (inglés)]]"]
 ---
 
 # Writing - Evolución
@@ -32,4 +35,6 @@ Párrafos espontáneos con:
 
 ## Ver también
 
-
+- [[MOC-idiomas]]
+- [[Idiomas/Ingles/errores|errores (inglés)]]
+- [[Idiomas/Ingles/progreso|progreso (inglés)]]

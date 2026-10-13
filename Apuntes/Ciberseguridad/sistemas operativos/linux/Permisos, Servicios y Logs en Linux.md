@@ -4,7 +4,7 @@ area: ciberseguridad
 tipo: fundamento
 tags: [ciberseguridad, linux, privesc]
 created: 2026-01-17
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-ciberseguridad]]", "[[conceptos]]", "[[Persistencia por ssh linux]]", "[[John The Ripper]]"]
 ---
 

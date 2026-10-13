@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "94fef42dc98b5d85",
+        "id": "8dd1d2b4846f1986",
         "type": "tabs",
         "children": [
           {
-            "id": "b917a934f844b1d4",
+            "id": "65e43f5ff1b326a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programacion/JavaScript/condicionales.md",
-                "mode": "source",
+                "file": "Programacion/SQL/Ordenando y eliminando duplicados.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "condicionales"
+              "title": "Ordenando y eliminando duplicados"
+            }
+          },
+          {
+            "id": "acf6a97c871516ae",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -87,6 +100,7 @@
       {
         "id": "360ab941fc820ebf",
         "type": "tabs",
+        "dimension": 56.39312977099237,
         "children": [
           {
             "id": "7e21fc9a92cfcce3",
@@ -94,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programacion/SQL/Ordenando y eliminando duplicados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programacion/SQL/Ordenando y eliminando duplicados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -154,71 +170,91 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sin título.md",
+                "file": "Programacion/SQL/Ordenando y eliminando duplicados.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Sin título"
+              "title": "Esquema"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f03dcc9636e6691c",
+        "type": "tabs",
+        "dimension": 43.60687022900763,
+        "children": [
+          {
+            "id": "e7fe843fdc626b33",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "daily-notes:Abrir la nota de hoy": false
     }
   },
-  "active": "b917a934f844b1d4",
+  "active": "acf6a97c871516ae",
   "lastOpenFiles": [
-    "Ciberseguridad/red team/Herramientas/redes/aircrak-ng.md",
-    "Programacion/JavaScript/siclos case.md",
-    "Ciberseguridad/red team/Herramientas/redes/TCPdump.md",
-    "Programacion/JavaScript/condicionales.md",
-    "Ciberseguridad/red team/Herramientas/redes/Wireshark.md",
-    "Ciberseguridad/red team/Herramientas/post explotacion/Jhon The Ripper.md",
-    "Ciberseguridad/red team/Herramientas/osint/Recon-ng.md",
-    "Ciberseguridad/red team/Herramientas/osint/Holehe.md",
-    "Ciberseguridad/red team/Herramientas/osint/The harvester.md",
-    "Ciberseguridad/red team/Herramientas/osint/sherlock.md",
-    "Ciberseguridad/red team/Herramientas/webs/burpsuite.md",
-    "Ciberseguridad/red team/Herramientas/webs/nuclei.md",
-    "Ciberseguridad/red team/Herramientas/post explotacion/Exiftool.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/Bettercap.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/Hping.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/Searchsploit.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/MSFvenom.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/Metasploit.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/SQLmap.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/Hydra.md",
-    "Ciberseguridad/red team/Herramientas/explotacion/Nmap.md",
-    "Ciberseguridad/red team/Herramientas/apuntes normales.md",
+    "Programacion/python/Encapsulamiento en Python.md",
+    "Programacion/python/Algoritmos con listas en Python.md",
+    "Programacion/python/Polimorfismo y abstracción en Python.md",
+    "Programacion/python/Herencia en Python.md",
+    "Programacion/python/Clases y objetos en Python.md",
+    "Programacion/python/Operadores en Python.md",
+    "Programacion/python/Control de bucles en Python.md",
+    "Programacion/python/Ordenamiento de matrices en Python.md",
+    "Programacion/python/Listas en Python.md",
+    "Programacion/python/Bucles while en Python.md",
+    "Programacion/python/Condicionales en Python.md",
+    "Programacion/python/Strings en Python.md",
+    "Programacion/python/Módulos y librerías en Python.md",
+    "Programacion/python/Funciones en Python.md",
+    "Programacion/python/Lambda, map, filter y reduce en Python.md",
+    "Programacion/python/Manejo de errores en Python.md",
+    "Programacion/python/Recursión en Python.md",
+    "Programacion/python/Archivos en Python.md",
+    "Programacion/python/Tuplas en Python.md",
+    "Programacion/python/Ordenamiento de listas en Python.md",
+    "Programacion/python/Matrices en Python.md",
+    "Programacion/python/Diccionarios en Python.md",
+    "Programacion/python/Sets en Python.md",
+    "Programacion/python/Range en Python.md",
+    "Programacion/python/Bucles for en Python.md",
+    "Programacion/SQL/Ordenando y eliminando duplicados.md",
+    "Ciberseguridad/red team/Herramientas/explotacion/sedN3HrSY",
+    "Ciberseguridad/redes/sedPW1b6S",
+    "Assets/bettercap-ticker.png",
+    "Assets/bettercap-netprobe.png",
+    "Assets/topologia-red.png",
     "Ciberseguridad/red team/Herramientas/osint",
     "Ciberseguridad/red team/Herramientas/post explotacion",
     "Ciberseguridad/red team/Herramientas/webs",
     "Ciberseguridad/red team/Herramientas/explotacion",
     "Ciberseguridad/red team/Herramientas/redes",
-    "Ciberseguridad/red team/Herramientas/webs/WFuzz.md",
-    "Ciberseguridad/red team/Herramientas/webs/Gobuster.md",
     "Osint",
-    "Ciberseguridad/red team/Herramientas/TCPdump.md",
-    "Programacion/JavaScript/variables en js Let vs Const.md",
     "Pasted image 20260117215151.png",
     "Ciberseguridad/red team/Herramientas/Nmap",
-    "re",
-    "Ciberseguridad/blue team/Herramientas",
-    "Ciberseguridad/red team/Herramientas"
+    "re"
   ]
 }

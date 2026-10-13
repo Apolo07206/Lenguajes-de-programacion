@@ -4,8 +4,8 @@ area: ciberseguridad
 tipo: herramienta
 tags: [ciberseguridad, red-team, explotacion]
 created: 2026-01-18
-updated: 2026-09-20
-related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]", "[[MSFvenom]]", "[[Searchsploit]]"]
+updated: 2026-10-12
+related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[MSFvenom]]", "[[apuntes normales]]", "[[Sockets]]", "[[Searchsploit]]"]
 ---
 
 # Metasploit Framework
@@ -186,6 +186,5 @@ Ejemplos que probablemente verás en Metasploitable:
 - [[MOC-ciberseguridad]]
 - [[red-team-killchain]]
 - [[Nmap]]
-- [[Metasploit]]
 - [[MSFvenom]]
 - [[Searchsploit]]

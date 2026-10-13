@@ -4,7 +4,7 @@ area: programacion
 tipo: lenguaje
 tags: [programacion, javascript]
 created: 2026-01-18
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-programacion]]", "[[Ruta JavaScript]]"]
 ---
 
@@ -75,3 +75,4 @@ switch (dia) {
 
 - [[MOC-programacion]]
 - [[Ruta JavaScript]]
+- [[Rutas]]

@@ -4,7 +4,7 @@ area: programacion
 tipo: ruta
 tags: [programacion, javascript, ruta]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-programacion]]"]
 ---
 
@@ -14,10 +14,11 @@ related: ["[[MOC-programacion]]"]
 - [x] [[variables en js Let vs Const]]
 - [x] [[condicionales]]
 - [x] [[switch-case]]
-- [ ] DOM + fetch + `Js_guia.pdf`
-- [ ] Conexión web-hacking: JS → [[burpsuite]] → [[WFuzz]]/[[Gobuster]]
+- [ ] DOM + fetch + `Assets/Js_guia.pdf`
+- [ ] [[burpsuite]] → [[WFuzz]] / [[Gobuster]] / [[nuclei]] — conexión web-hacking
 
 ## Ver también
 
 - [[MOC-programacion]]
+- [[Rutas]]
 - [[HOME]]

@@ -1,8 +1,12 @@
 ---
+title: Errores comunes - Alemán
+area: idiomas
 idioma: aleman
 tipo: errores
-created: 2026-06-20
 tags: [aleman, errores, feedback]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Aleman/progreso|progreso (alemán)]]", "[[Idiomas/Ingles/errores|errores (inglés)]]"]
 ---
 
 # Errores comunes - Alemán
@@ -22,4 +26,6 @@ tags: [aleman, errores, feedback]
 
 ## Ver también
 
-
+- [[MOC-idiomas]]
+- [[Idiomas/Aleman/progreso|progreso (alemán)]]
+- [[Idiomas/Ingles/errores|errores (inglés)]]

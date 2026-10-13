@@ -4,9 +4,11 @@ area: programacion
 tipo: lenguaje
 tags: [programacion, python]
 created: 2026-09-18
-updated: 2026-09-20
-related: ["[[MOC-programacion]]", "[[Ruta Python]]", "[[Sockets]]", "[[redes y protocolos]]", "[[apuntes normales]]"]
+updated: 2026-10-12
+related: ["[[MOC-programacion]]", "[[Ruta Python]]", "[[Rutas]]", "[[redes y protocolos]]", "[[apuntes normales]]", "[[Python con Django]]"]
 ---
+
+# Sockets
 
 ## ¿ Para que sirbe sockets ?
 
@@ -178,6 +180,12 @@ cliente()
 
 - [[MOC-programacion]]
 - [[Ruta Python]]
-- [[Sockets]]
+- [[Rutas]]
 - [[redes y protocolos]]
 - [[apuntes normales]]
+- [[Nmap]]
+- [[Metasploit]]
+- [[MSFvenom]]
+- [[Python con Django]]
+- [[Flash en python (bases)]]
+- [[MOC-ciberseguridad]]

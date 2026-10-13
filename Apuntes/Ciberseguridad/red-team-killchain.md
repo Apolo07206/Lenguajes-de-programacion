@@ -4,7 +4,7 @@ area: ciberseguridad
 tipo: hub
 tags: [ciberseguridad, red-team, killchain]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-ciberseguridad]]", "[[Nmap]]", "[[Metasploit]]"]
 ---
 

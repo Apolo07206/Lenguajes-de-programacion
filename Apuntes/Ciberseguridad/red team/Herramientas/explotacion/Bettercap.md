@@ -4,7 +4,7 @@ area: ciberseguridad
 tipo: herramienta
 tags: [ciberseguridad, red-team, explotacion]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-ciberseguridad]]", "[[red-team-killchain]]", "[[Nmap]]", "[[Metasploit]]"]
 ---
 
@@ -47,7 +47,7 @@ sudo bettercap
 net.probe on 
 ```
 
-![[Assets/Pasted image 20260216165708.png]]
+![[Assets/bettercap-netprobe.png]]
 
 
 si queremos algo mas visual usamos el siguiente comando :
@@ -56,7 +56,7 @@ ticker on
 ```
 se veria de la siguiente manera 
 
-![[Assets/Pasted image 20260216165854.png]]
+![[Assets/bettercap-ticker.png]]
 
 ## 4 identificar la puerta de enlace:
 para este ataque debemos primero identificar la puerta de enlace o la gateway (router)
@@ -92,7 +92,7 @@ con esto veremos lo datos que se envian por la red , esto tambien es posible con
 para hacer este ataque podemos montar un servidor web con apache2 para redirigir a la victima a nuestro servidor web , lo hacemos de la siguiente manera:
 
 ``` bash
-##instalamos apache2 
+# instalamos apache2 
 
 sudo apt install apache2
 

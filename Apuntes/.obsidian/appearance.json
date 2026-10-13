@@ -1,1 +1,9 @@
-{}
+{
+  "enabledCssSnippets": [
+    "Retablo_Barroco_V2"
+  ],
+  "accentColor": "#e82121",
+  "textFontFamily": "Noto Serif CJK TC,Noto Serif Display",
+  "interfaceFontFamily": "Noto Serif Display,Noto Serif CJK TC",
+  "monospaceFontFamily": "Noto Serif Display,Noto Serif CJK TC"
+}

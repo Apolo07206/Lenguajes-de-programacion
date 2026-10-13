@@ -4,8 +4,8 @@ area: idiomas
 tipo: transcript
 tags: [ingles, transcript]
 created: 2026-06-21
-updated: 2026-09-20
-related: ["[[MOC-idiomas]]", "[[metodo]]", "[[progreso]]"]
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/metodo|metodo (inglés)]]", "[[Idiomas/Ingles/progreso|progreso (inglés)]]"]
 ---
 
 # Mr. Salas Council — Transcripción Completa
@@ -101,5 +101,5 @@ Los subtítulos de Netflix no coinciden con lo que los personajes dicen, pero ig
 ## Ver también
 
 - [[MOC-idiomas]]
-- [[metodo]]
-- [[progreso]]
+- [[Idiomas/Ingles/metodo|metodo (inglés)]]
+- [[Idiomas/Ingles/progreso|progreso (inglés)]]

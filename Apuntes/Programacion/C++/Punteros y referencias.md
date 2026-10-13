@@ -4,14 +4,14 @@ area: programacion
 tipo: lenguaje
 tags: [programacion, cpp]
 created: 2026-09-16
-updated: 2026-09-20
+updated: 2026-10-12
 related: ["[[MOC-programacion]]", "[[Rutas]]"]
 ---
 
 Markdown
 
 ````
-# 📌 Cheatsheet: Punteros y Memoria Dinámica en C++
+#  Cheatsheet: Punteros y Memoria Dinámica en C++
 
 ## 1. El Asterisco (`*`): ¿Cuándo SÍ y cuándo NO?
 

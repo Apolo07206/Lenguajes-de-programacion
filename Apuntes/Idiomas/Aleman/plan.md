@@ -1,8 +1,12 @@
 ---
+title: Plan de estudio - Alemán
+area: idiomas
 idioma: aleman
 tipo: plan
-created: 2026-06-20
 tags: [aleman, plan, metas]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Aleman/metodo|metodo (alemán)]]", "[[Idiomas/Ingles/metodo|metodo (inglés)]]"]
 ---
 
 # Plan de estudio - Alemán
@@ -38,4 +42,6 @@ tags: [aleman, plan, metas]
 
 ## Ver también
 
-
+- [[MOC-idiomas]]
+- [[Idiomas/Aleman/metodo|metodo (alemán)]]
+- [[Idiomas/Ingles/metodo|metodo (inglés)]]

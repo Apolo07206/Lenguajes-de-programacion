@@ -1,9 +1,11 @@
 ---
 title: como usar este vault
+area: meta
 tipo: meta
 tags: [meta, second-brain]
+related: ["[[HOME]]"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 ---
 
 # Cómo usar este vault
@@ -38,4 +40,7 @@ updated: 2026-09-20
 
 ## Ver también
 
-
+- [[HOME]]
+- [[MOC-ciberseguridad]]
+- [[MOC-programacion]]
+- [[MOC-idiomas]]

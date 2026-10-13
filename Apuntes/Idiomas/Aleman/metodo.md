@@ -1,8 +1,12 @@
 ---
+title: Método de estudio - Alemán
+area: idiomas
 idioma: aleman
 tipo: metodo
-created: 2026-06-20
 tags: [aleman, metodo, rutina]
+created: 2026-06-20
+updated: 2026-10-12
+related: ["[[MOC-idiomas]]", "[[Idiomas/Ingles/metodo|metodo (inglés)]]", "[[Idiomas/Aleman/plan|plan (alemán)]]"]
 ---
 
 # Método de estudio - Alemán
@@ -35,4 +39,6 @@ tags: [aleman, metodo, rutina]
 
 ## Ver también
 
-
+- [[MOC-idiomas]]
+- [[Idiomas/Ingles/metodo|metodo (inglés)]]
+- [[Idiomas/Aleman/plan|plan (alemán)]]
