@@ -1,0 +1,372 @@
+/* ============================================================
+   DARK FANTASY — Gótico Católico (blanco neutro + detalles rojos)
+   Paleta: Blanco hueso frío, Piedra negra, Plata, Carmesí (acentos)
+   Snippet CSS para Obsidian — NO modifica tipografía
+   ============================================================ */
+
+:root {
+  --df-black: #0a0908;
+  --df-black-alt: #121110;
+  --df-stone: #1a1816;
+  --df-panel: #201e1c;
+
+  --df-crimson: #8f1120;
+  --df-crimson-bright: #b8182b;
+
+  --df-silver: #c5c6c8;
+  --df-silver-bright: #ededee;
+  --df-silver-dim: #7f8083;
+
+  --df-white: #e6e6e6;
+  --df-white-dim: #96979a;
+  --df-white-faint: #cfcfd0;
+}
+
+/* ---------- Variables nativas de Obsidian ---------- */
+body.theme-dark {
+  --background-primary: var(--df-black);
+  --background-primary-alt: var(--df-black-alt);
+  --background-secondary: var(--df-stone);
+  --background-secondary-alt: var(--df-panel);
+  --background-modifier-border: #2a2826;
+  --background-modifier-hover: rgba(197, 198, 200, 0.08);
+  --background-modifier-active-hover: rgba(143, 17, 32, 0.16);
+
+  --text-normal: var(--df-white);
+  --text-muted: var(--df-white-dim);
+  --text-faint: #67666a;
+  --text-accent: var(--df-silver-bright);
+  --text-accent-hover: var(--df-crimson-bright);
+  --text-on-accent: var(--df-white);
+  --text-selection: rgba(197, 198, 200, 0.2);
+  --text-error: var(--df-crimson-bright);
+
+  --interactive-normal: var(--df-panel);
+  --interactive-hover: #262422;
+  --interactive-accent: var(--df-crimson);
+  --interactive-accent-hover: var(--df-crimson-bright);
+
+  --divider-color: #2a2826;
+  --titlebar-background: #050403;
+  --titlebar-background-focused: #0a0806;
+
+  --scrollbar-bg: #050403;
+  --scrollbar-thumb-bg: #3a3836;
+  --scrollbar-active-thumb-bg: var(--df-silver);
+
+  --tag-color: var(--df-silver);
+  --tag-background: rgba(197, 198, 200, 0.08);
+  --tag-border-color: var(--df-white-dim);
+
+  --checkbox-color: var(--df-silver-bright);
+  --checkbox-border-color: var(--df-silver);
+
+  --blockquote-border-color: var(--df-silver);
+  --code-normal: var(--df-white);
+  --code-background: #141210;
+  --code-border-color: #2a2826;
+
+  /* Tablas: plata en vez de casi-negro */
+  --table-border-color: var(--df-silver-dim);
+}
+
+/* ---------- Fondo ---------- */
+.workspace,
+.workspace-tabs {
+  background:
+    radial-gradient(ellipse 55% 45% at 25% 15%, rgba(197,198,200,0.04), transparent 65%),
+    radial-gradient(ellipse 55% 45% at 80% 85%, rgba(143,17,32,0.03), transparent 65%),
+    var(--df-black);
+}
+
+/* ---------- Aparición de nota ---------- */
+@keyframes dfReveal {
+  from { opacity: 0; transform: translateY(3px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.workspace-leaf-content[data-type="markdown"] .markdown-preview-view,
+.workspace-leaf-content[data-type="markdown"] .cm-editor {
+  animation: dfReveal 0.5s ease-out;
+}
+
+/* ---------- H1: blanco frío sólido, cruz plateada brillante ---------- */
+.markdown-preview-view h1,
+.markdown-rendered h1,
+.cm-header-1,
+.HyperMD-header-1 {
+  color: var(--df-white) !important;
+  border-bottom: 1px solid var(--df-crimson);
+  padding-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+.markdown-preview-view h1::before,
+.markdown-rendered h1::before {
+  content: "†";
+  display: inline-block;
+  margin-right: 12px;
+  color: var(--df-silver-bright) !important;
+  font-weight: normal;
+  font-size: 1.1em;
+  text-shadow: 0 0 8px rgba(237, 237, 238, 0.5);
+}
+.markdown-preview-view h1::after,
+.markdown-rendered h1::after {
+  content: "•";
+  color: var(--df-crimson-bright);
+  margin-left: 8px;
+}
+
+/* ---------- Subtítulos (h2–h6): PLATA sólida ---------- */
+.markdown-preview-view h2,
+.markdown-rendered h2,
+.cm-header-2 {
+  color: var(--df-silver-bright) !important;
+  border-bottom: 1px solid #2a2826;
+  padding-bottom: 3px;
+}
+.markdown-preview-view h2::before,
+.markdown-rendered h2::before {
+  content: "❧";
+  color: var(--df-crimson-bright);
+  margin-right: 6px;
+  font-size: 0.85em;
+}
+.markdown-preview-view h3, .markdown-rendered h3, .cm-header-3 { color: var(--df-silver) !important; }
+.markdown-preview-view h3::before,
+.markdown-rendered h3::before {
+  content: "—";
+  color: var(--df-crimson);
+  margin-right: 6px;
+}
+.markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6,
+.markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
+.cm-header-4, .cm-header-5, .cm-header-6 { color: var(--df-white-dim) !important; }
+
+/* ---------- Enlaces ---------- */
+.markdown-preview-view a,
+.cm-link, .cm-hmd-internal-link {
+  color: var(--df-crimson-bright) !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(184,24,43,0.5);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.markdown-preview-view a:hover,
+.cm-link:hover, .cm-hmd-internal-link:hover {
+  color: var(--df-silver-bright) !important;
+  border-bottom: 1px solid var(--df-silver-bright);
+}
+
+.markdown-preview-view strong { color: var(--df-silver-bright); }
+.markdown-preview-view em { color: var(--df-white-dim); }
+
+/* ---------- Listas ---------- */
+.markdown-preview-view ul > li::marker { color: var(--df-crimson-bright); }
+.markdown-preview-view ol > li::marker { color: var(--df-crimson-bright); font-weight: 600; }
+
+/* ---------- Blockquotes ---------- */
+@keyframes parchmentShift {
+  0%, 100% { box-shadow: -2px 0 6px rgba(197,198,200,0.08); }
+  50%      { box-shadow: -2px 0 12px rgba(197,198,200,0.16); }
+}
+.markdown-preview-view blockquote {
+  position: relative;
+  border-left: 2px solid var(--df-silver);
+  background: linear-gradient(90deg, rgba(197,198,200,0.05), transparent 80%);
+  padding: 10px 16px 10px 34px;
+  border-radius: 0 2px 2px 0;
+  color: var(--df-white-faint);
+  animation: parchmentShift 4s ease-in-out infinite;
+}
+.markdown-preview-view blockquote::before {
+  content: "†";
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  color: var(--df-silver-bright) !important;
+  font-size: 1.3em;
+  text-shadow: 0 0 8px rgba(237, 237, 238, 0.5);
+}
+.markdown-preview-view blockquote p::after {
+  content: " ,";
+  color: var(--df-crimson-bright);
+  font-weight: 700;
+}
+
+/* ---------- Código ---------- */
+.markdown-preview-view code {
+  background: var(--code-background);
+  color: var(--df-silver);
+  border: 1px solid var(--code-border-color);
+  border-radius: 2px;
+}
+.markdown-preview-view pre {
+  background: var(--code-background);
+  border: 1px solid var(--code-border-color);
+  border-left: 2px solid var(--df-crimson);
+  border-radius: 3px;
+}
+
+/* ---------- Resaltado ---------- */
+mark {
+  background: rgba(143, 17, 32, 0.3) !important;
+  color: var(--df-silver-bright) !important;
+}
+
+/* ---------- HR ---------- */
+@keyframes hrShimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.markdown-preview-view hr {
+  position: relative;
+  border: none;
+  height: 1px;
+  margin: 2.2em 0;
+  background: linear-gradient(90deg,
+    transparent, var(--df-silver), var(--df-silver-bright), var(--df-silver), transparent);
+  background-size: 250% 100%;
+  animation: hrShimmer 6s linear infinite;
+}
+.markdown-preview-view hr::before,
+.markdown-preview-view hr::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--df-crimson-bright);
+}
+.markdown-preview-view hr::before { left: 35%; }
+.markdown-preview-view hr::after  { right: 35%; }
+
+/* ---------- Separador rojo entre párrafos ---------- */
+.markdown-preview-view p + p { position: relative; }
+.markdown-preview-view p + p::before {
+  content: "";
+  position: absolute;
+  top: -0.6em;
+  left: 0;
+  width: 18px;
+  height: 1px;
+  background: var(--df-crimson);
+}
+
+/* ---------- Tablas: bordes plateados normales, sin brillo ---------- */
+.markdown-preview-view table,
+.markdown-rendered table {
+  border-collapse: collapse;
+  border: 1px solid var(--df-silver-dim) !important;
+}
+.markdown-preview-view table th,
+.markdown-rendered table th {
+  background: var(--df-panel);
+  color: var(--df-silver-bright);
+  border: 1px solid var(--df-silver-dim) !important;
+}
+.markdown-preview-view table td,
+.markdown-rendered table td {
+  border: 1px solid var(--df-silver-dim) !important;
+  color: var(--df-white);
+}
+.markdown-preview-view table tr { transition: background 0.2s ease; }
+.markdown-preview-view table tr:hover td {
+  background: rgba(197, 198, 200, 0.05);
+}
+
+/* ---------- Checkboxes ---------- */
+.task-list-item-checkbox { accent-color: var(--df-silver-bright); }
+.task-list-item-checkbox:checked {
+  filter: drop-shadow(0 0 3px var(--df-silver));
+}
+.task-list-item:not(.is-checked) .task-list-item-checkbox {
+  box-shadow: 0 0 0 1px var(--df-crimson-bright);
+}
+
+/* ---------- Tags ---------- */
+.tag {
+  background: var(--tag-background) !important;
+  color: var(--df-silver) !important;
+  border: 1px solid var(--df-white-dim) !important;
+  transition: all 0.2s ease;
+}
+.tag::before {
+  content: "•";
+  color: var(--df-crimson-bright);
+  margin-right: 3px;
+}
+.tag:hover {
+  background: rgba(143, 17, 32, 0.15) !important;
+  border-color: var(--df-crimson-bright) !important;
+  color: var(--df-silver-bright) !important;
+}
+
+/* ---------- Sidebar ---------- */
+.nav-file-title, .nav-folder-title {
+  transition: background 0.2s ease, color 0.2s ease;
+  border-radius: 2px;
+}
+.nav-file-title:hover, .nav-folder-title:hover {
+  background: rgba(197, 198, 200, 0.08) !important;
+  color: var(--df-silver-bright) !important;
+}
+.nav-file-title.is-active {
+  background: rgba(143, 17, 32, 0.14) !important;
+  color: var(--df-white) !important;
+  box-shadow: -2px 0 0 var(--df-crimson-bright) inset;
+}
+
+/* ---------- Pestañas ---------- */
+.workspace-tab-header.is-active {
+  border-bottom: 2px solid var(--df-crimson-bright);
+  box-shadow: 0 2px 8px rgba(184,24,43,0.2);
+}
+.workspace-tab-header { transition: background 0.2s ease; }
+.workspace-tab-header:hover {
+  background: rgba(197, 198, 200, 0.06) !important;
+}
+
+/* ---------- Botones ---------- */
+button, .mod-cta {
+  background: var(--df-panel) !important;
+  color: var(--df-white) !important;
+  border: 1px solid var(--df-white-dim) !important;
+  transition: all 0.2s ease;
+}
+button:hover, .mod-cta:hover {
+  background: var(--df-crimson) !important;
+  border-color: var(--df-crimson-bright) !important;
+  box-shadow: 0 0 10px rgba(184,24,43,0.35);
+}
+button:active, .mod-cta:active {
+  transform: scale(0.97);
+}
+
+/* ---------- Barra de estado ---------- */
+.status-bar {
+  background: #050403;
+  border-top: 1px solid #2a2826;
+  color: var(--df-white-dim);
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #050403; }
+::-webkit-scrollbar-thumb {
+  background: var(--df-white-dim);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--df-crimson-bright);
+}
+
+/* ---------- Caret ---------- */
+@keyframes caretCandle {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.3; }
+}
+.cm-cursor {
+  border-left-color: var(--df-crimson-bright) !important;
+  animation: caretCandle 1.2s ease-in-out infinite;
+}

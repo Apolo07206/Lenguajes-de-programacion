@@ -1,0 +1,1325 @@
+/*
+ * Nytharael 1.0.0
+ * Local development build for The Grand Archive of Nytharael.
+ *
+ * Alpengeist JF is a commercial font and is intentionally not bundled.
+ * Install a licensed copy on the operating system to use the intended design.
+ */
+
+body {
+  --nyth-font: "AlpengeistJF", "Alpengeist JF", "Alpengeist", serif;
+  --font-interface-theme: var(--nyth-font);
+  --font-text-theme: var(--nyth-font);
+  --font-monospace-theme: var(--nyth-font);
+
+  --font-text-size: 20px;
+  --font-ui-smaller: 12px;
+  --font-ui-small: 14px;
+  --font-ui-medium: 16px;
+  --font-ui-large: 20px;
+  --line-height-normal: 1.7;
+  --line-height-tight: 1.3;
+  --file-line-width: 700px;
+  --p-spacing: 1.05em;
+
+  --inline-title-size: 1.05em;
+  --inline-title-weight: 400;
+  --inline-title-line-height: 1.3;
+
+  --tab-font-size: 14px;
+  --tab-font-weight: 400;
+  --nav-item-size: 14px;
+  --nav-item-padding: 4px 8px;
+
+  --radius-s: 2px;
+  --radius-m: 3px;
+  --radius-l: 4px;
+  --input-radius: 2px;
+  --button-radius: 2px;
+  --tab-radius-active: 2px 2px 0 0;
+  --modal-radius: 3px;
+  --modal-border-width: 1px;
+  --callout-radius: 2px;
+
+  --border-width: 1px;
+  --divider-width: 1px;
+  --tab-outline-width: 1px;
+
+  --h1-size: 2.1em;
+  --h2-size: 1.6em;
+  --h3-size: 1.3em;
+  --h4-size: 1.12em;
+  --h5-size: 1em;
+  --h6-size: 0.92em;
+  --heading-spacing: calc(var(--p-spacing) * 2.25);
+
+  --link-decoration: none;
+  --link-decoration-hover: underline;
+  --link-external-decoration: none;
+  --link-external-decoration-hover: underline;
+
+  --bold-weight: 600;
+  --tag-radius: 2px;
+  --tag-padding-x: 0.55em;
+  --tag-padding-y: 0.18em;
+
+  --caret-color: var(--nyth-brass-bright);
+  --checkbox-radius: 1px;
+  --checkbox-color: var(--interactive-accent);
+  --checkbox-color-hover: var(--interactive-accent-hover);
+  --checkbox-border-color: var(--nyth-brass-dim);
+  --checkbox-border-color-hover: var(--nyth-brass);
+  --checkbox-marker-color: var(--text-on-accent);
+  --indentation-guide-color: color-mix(in oklch, var(--nyth-brass-dim) 46%, transparent);
+  --indentation-guide-color-active: var(--nyth-brass);
+  --indentation-guide-width: 1px;
+  --indentation-guide-width-active: 1px;
+  --toggle-radius: 2px;
+  --toggle-thumb-radius: 1px;
+}
+
+.theme-dark {
+  color-scheme: dark;
+
+  --color-base-00: #09110f;
+  --color-base-05: #0c1512;
+  --color-base-10: #101a16;
+  --color-base-20: #15211c;
+  --color-base-25: #1b2923;
+  --color-base-30: #24342c;
+  --color-base-35: #304139;
+  --color-base-40: #48584e;
+  --color-base-50: #68766b;
+  --color-base-60: #8c9688;
+  --color-base-70: #b2b49f;
+  --color-base-100: #e7dcc0;
+
+  --background-primary: #0c1512;
+  --background-primary-alt: #101a16;
+  --background-secondary: #09110f;
+  --background-secondary-alt: #0f1915;
+  --background-modifier-border: #57482d;
+  --background-modifier-border-hover: #8f7040;
+  --background-modifier-border-focus: #c29a51;
+  --background-modifier-hover: color-mix(in oklch, #b88a43 12%, transparent);
+  --background-modifier-active-hover: color-mix(in oklch, #d0a557 18%, transparent);
+  --background-modifier-form-field: #101a16;
+  --background-modifier-error: #6f302c;
+  --background-modifier-error-hover: #874039;
+  --background-modifier-success: #405f43;
+  --background-modifier-message: #18231e;
+
+  --text-normal: #ede2c5;
+  --text-muted: #b5a98b;
+  --text-faint: #7d7768;
+  --text-on-accent: #11120e;
+  --text-on-accent-inverted: #f4ead0;
+  --text-selection: color-mix(in oklch, #d1a659 32%, transparent);
+  --text-highlight-bg: color-mix(in oklch, #c59542 30%, transparent);
+
+  --link-color: #d0a458;
+  --link-color-hover: #e1bd72;
+  --link-unresolved-color: #a96f4f;
+  --link-unresolved-opacity: 0.82;
+  --link-external-color: #bd9bc6;
+  --link-external-color-hover: #d2b2da;
+
+  --tag-color: #d8b46d;
+  --tag-background: color-mix(in oklch, #b58b47 12%, transparent);
+  --tag-background-hover: color-mix(in oklch, #c79b51 20%, transparent);
+  --tag-border-color: #5e4c2f;
+  --tag-border-color-hover: #9b773e;
+
+  --accent-h: 39;
+  --accent-s: 57%;
+  --accent-l: 56%;
+  --interactive-normal: #15211c;
+  --interactive-hover: #1d2b24;
+  --interactive-accent: #c39a50;
+  --interactive-accent-hover: #d5ae65;
+
+  --color-red: #b94f49;
+  --color-orange: #bd7945;
+  --color-yellow: #c39a50;
+  --color-green: #6f9b70;
+  --color-cyan: #668e8e;
+  --color-blue: #637f98;
+  --color-purple: #896b98;
+  --color-pink: #9b657c;
+
+  --titlebar-background: #080e0c;
+  --titlebar-background-focused: #0b1310;
+  --tab-container-background: #080e0c;
+  --tab-background-active: #0c1512;
+  --tab-outline-color: #57482d;
+  --tab-divider-color: #2f2a20;
+
+  --blockquote-border-color: #b18846;
+  --code-background: #08100d;
+  --code-normal: #d7c8a5;
+  --code-comment: #7f887c;
+  --code-function: #d8ad5c;
+  --code-keyword: #bb7450;
+  --code-string: #a8b98f;
+  --code-value: #bd9ac7;
+
+  --graph-line: #3d493f;
+  --graph-line-hover: #b88e48;
+  --graph-node: #a78345;
+  --graph-node-focused: #e1bd70;
+  --graph-node-tag: #8d6a98;
+  --graph-node-attachment: #9a7554;
+  --graph-node-unresolved: #a15f48;
+  --graph-text: #bcb293;
+
+  --modal-background: #0d1713;
+  --modal-border-color: #6a5433;
+
+  --nyth-brass: #b88e48;
+  --nyth-brass-bright: #d6ad61;
+  --nyth-brass-dim: #55472e;
+  --nyth-shadow: #020604;
+  --nyth-sidebar-surface: linear-gradient(180deg, #08110f 0%, #0b1512 48%, #09120f 100%);
+  --nyth-header-surface: linear-gradient(180deg, #0c1713 0%, #08110e 100%);
+  --nyth-active-surface: linear-gradient(90deg, color-mix(in oklch, #c59a50 15%, transparent), color-mix(in oklch, #c59a50 5%, transparent));
+}
+
+.theme-light {
+  color-scheme: light;
+
+  --color-base-00: #f4ecd9;
+  --color-base-05: #efe5cf;
+  --color-base-10: #e9dec6;
+  --color-base-20: #dfd1b5;
+  --color-base-25: #d5c5a7;
+  --color-base-30: #c6b492;
+  --color-base-35: #ae9b79;
+  --color-base-40: #948160;
+  --color-base-50: #79684d;
+  --color-base-60: #5f513c;
+  --color-base-70: #493d2e;
+  --color-base-100: #29231d;
+
+  --background-primary: #f2ead8;
+  --background-primary-alt: #e9dec7;
+  --background-secondary: #e4d8c0;
+  --background-secondary-alt: #dbceb4;
+  --background-modifier-border: #aa8a55;
+  --background-modifier-border-hover: #806436;
+  --background-modifier-border-focus: #6b4f26;
+  --background-modifier-hover: color-mix(in oklch, #8c672f 11%, transparent);
+  --background-modifier-active-hover: color-mix(in oklch, #7a5725 17%, transparent);
+  --background-modifier-form-field: #eee4cf;
+  --background-modifier-error: #b86a61;
+  --background-modifier-error-hover: #a95249;
+  --background-modifier-success: #789979;
+  --background-modifier-message: #ded2bb;
+
+  --text-normal: #2c271f;
+  --text-muted: #655945;
+  --text-faint: #8b7c63;
+  --text-on-accent: #fff8e8;
+  --text-on-accent-inverted: #211d17;
+  --text-selection: color-mix(in oklch, #9b7133 27%, transparent);
+  --text-highlight-bg: color-mix(in oklch, #d2a84f 34%, transparent);
+
+  --link-color: #795722;
+  --link-color-hover: #563a14;
+  --link-unresolved-color: #914f34;
+  --link-unresolved-opacity: 0.86;
+  --link-external-color: #6f4a77;
+  --link-external-color-hover: #4d2d56;
+
+  --tag-color: #68491e;
+  --tag-background: color-mix(in oklch, #80602f 11%, transparent);
+  --tag-background-hover: color-mix(in oklch, #80602f 18%, transparent);
+  --tag-border-color: #ac8e5d;
+  --tag-border-color-hover: #795822;
+
+  --accent-h: 36;
+  --accent-s: 50%;
+  --accent-l: 38%;
+  --interactive-normal: #e3d6be;
+  --interactive-hover: #d8c8aa;
+  --interactive-accent: #80602f;
+  --interactive-accent-hover: #66491f;
+
+  --color-red: #a64942;
+  --color-orange: #a86435;
+  --color-yellow: #9b752e;
+  --color-green: #567b57;
+  --color-cyan: #527475;
+  --color-blue: #536e86;
+  --color-purple: #72577f;
+  --color-pink: #805269;
+
+  --titlebar-background: #d9ccb3;
+  --titlebar-background-focused: #d2c2a4;
+  --tab-container-background: #d9ccb3;
+  --tab-background-active: #f2ead8;
+  --tab-outline-color: #a88751;
+  --tab-divider-color: #b7a582;
+
+  --blockquote-border-color: #8b672e;
+  --code-background: #e4d9c3;
+  --code-normal: #332b20;
+
+  --graph-line: #a39373;
+  --graph-line-hover: #745324;
+  --graph-node: #7d5e2d;
+  --graph-node-focused: #4d3516;
+  --graph-node-tag: #76547e;
+  --graph-node-attachment: #79563c;
+  --graph-node-unresolved: #98533a;
+  --graph-text: #514532;
+
+  --modal-background: #eee4cf;
+  --modal-border-color: #987744;
+
+  --nyth-brass: #8b672f;
+  --nyth-brass-bright: #68491e;
+  --nyth-brass-dim: #b19a70;
+  --nyth-shadow: #7b6a4f;
+  --nyth-sidebar-surface: linear-gradient(180deg, #e2d6bf 0%, #ddd0b7 48%, #d7c9ae 100%);
+  --nyth-header-surface: linear-gradient(180deg, #e1d4bb 0%, #d7c8ab 100%);
+  --nyth-active-surface: linear-gradient(90deg, color-mix(in oklch, #80602f 16%, transparent), color-mix(in oklch, #80602f 5%, transparent));
+}
+
+body,
+button,
+input,
+textarea,
+select,
+.markdown-source-view,
+.markdown-preview-view,
+.cm-editor,
+.cm-scroller,
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--nyth-font) !important;
+}
+
+.workspace,
+.modal,
+.menu,
+.prompt,
+.suggestion-container {
+  letter-spacing: 0.01em;
+}
+
+.workspace-ribbon {
+  background: var(--background-secondary);
+  border-inline-end: 1px solid var(--nyth-brass-dim);
+  box-shadow: inset -1px 0 color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.workspace-ribbon .clickable-icon {
+  color: var(--text-faint);
+}
+
+.workspace-ribbon .clickable-icon:hover,
+.workspace-ribbon .clickable-icon.has-active-menu {
+  color: var(--nyth-brass-bright);
+  background: color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.mod-left-split,
+.mod-right-split {
+  background: var(--nyth-sidebar-surface);
+}
+
+.mod-left-split {
+  box-shadow: inset -10px 0 22px color-mix(in oklch, var(--nyth-shadow) 24%, transparent);
+}
+
+.mod-right-split {
+  box-shadow: inset 10px 0 22px color-mix(in oklch, var(--nyth-shadow) 24%, transparent);
+}
+
+.mod-left-split .workspace-tab-container,
+.mod-right-split .workspace-tab-container,
+.mod-left-split .workspace-leaf-content,
+.mod-right-split .workspace-leaf-content {
+  background: transparent;
+}
+
+.workspace-leaf-resize-handle {
+  background: var(--nyth-brass-dim);
+}
+
+.workspace-leaf-resize-handle:hover {
+  background: var(--nyth-brass);
+}
+
+.inline-title {
+  margin-bottom: 0.75em;
+  color: var(--text-faint);
+  letter-spacing: 0.055em;
+}
+
+.workspace-split.mod-root .view-content {
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklch, var(--background-modifier-border) 13%, transparent) 50%,
+    transparent
+  );
+}
+
+.workspace-tab-header-container {
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--nyth-header-surface);
+  box-shadow: inset 0 -1px color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.workspace-tab-header {
+  position: relative;
+  color: var(--text-muted);
+  border-inline-end: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 60%, transparent);
+}
+
+.workspace-tab-header-inner {
+  padding-inline: 10px;
+}
+
+.workspace-tab-header.is-active {
+  color: var(--text-accent);
+  background: var(--tab-background-active);
+}
+
+.workspace-tab-header.is-active::after {
+  content: "";
+  position: absolute;
+  inset: 0.5px 12% auto;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--nyth-brass-bright), transparent);
+  box-shadow: 0 1px 7px color-mix(in oklch, var(--nyth-brass-bright) 34%, transparent);
+}
+
+.workspace-tab-header:not(.is-active) {
+  color: var(--text-muted);
+}
+
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+  border-radius: 0;
+}
+
+.view-header {
+  background: color-mix(in oklch, var(--background-primary) 88%, var(--nyth-brass-dim));
+  border-bottom: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 76%, transparent);
+  box-shadow: 0 3px 12px color-mix(in oklch, var(--nyth-shadow) 18%, transparent);
+}
+
+.workspace-leaf.mod-active .view-header {
+  border-bottom-color: color-mix(in oklch, var(--nyth-brass) 54%, var(--nyth-brass-dim));
+}
+
+.nav-header {
+  border-bottom: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 65%, transparent);
+  background: color-mix(in oklch, var(--background-secondary) 92%, var(--nyth-brass-dim));
+  box-shadow: 0 4px 12px color-mix(in oklch, var(--nyth-shadow) 16%, transparent);
+}
+
+.nav-file-title,
+.nav-folder-title {
+  border-left: 2px solid transparent;
+  line-height: 1.35;
+  transition: color 100ms ease, background-color 100ms ease, border-color 100ms ease;
+}
+
+.nav-file-title {
+  color: var(--text-muted);
+}
+
+.nav-folder-title {
+  color: color-mix(in oklch, var(--text-normal) 74%, var(--text-muted));
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  color: var(--text-normal);
+}
+
+.nav-file-title.is-active {
+  border-left-color: var(--interactive-accent);
+  color: var(--text-accent);
+  background: var(--nyth-active-surface);
+  box-shadow: inset 0 1px color-mix(in oklch, var(--nyth-brass) 12%, transparent), inset 0 -1px color-mix(in oklch, var(--nyth-brass) 8%, transparent);
+}
+
+.nav-folder-children,
+.tree-item-children {
+  border-inline-start-color: color-mix(in oklch, var(--nyth-brass-dim) 52%, transparent);
+}
+
+.outline .tree-item-self {
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+.outline .tree-item-self:hover,
+.outline .tree-item-self.is-active {
+  color: var(--text-normal);
+}
+
+.view-header-title,
+.view-header-breadcrumb,
+.status-bar {
+  color: var(--text-faint);
+}
+
+.workspace-sidedock-vault-profile {
+  border-top: 1px solid var(--nyth-brass-dim);
+  background: color-mix(in oklch, var(--background-secondary) 92%, var(--nyth-brass-dim));
+  box-shadow: 0 -4px 12px color-mix(in oklch, var(--nyth-shadow) 17%, transparent);
+}
+
+.status-bar {
+  border: 1px solid var(--nyth-brass-dim);
+  border-bottom: 0;
+  border-radius: 2px 0 0 0;
+  background: color-mix(in oklch, var(--background-secondary) 90%, var(--nyth-brass-dim));
+  box-shadow: -4px -4px 14px color-mix(in oklch, var(--nyth-shadow) 22%, transparent);
+}
+
+.modal,
+.prompt,
+.menu,
+.suggestion-container {
+  border: 1px solid var(--nyth-brass-dim);
+  box-shadow: 0 18px 55px color-mix(in oklch, var(--nyth-shadow) 56%, transparent), inset 0 1px color-mix(in oklch, var(--nyth-brass) 13%, transparent);
+}
+
+.modal-bg {
+  background: color-mix(in oklch, var(--nyth-shadow) 68%, transparent);
+}
+
+.modal-title,
+.prompt-instruction-command {
+  color: var(--text-accent);
+}
+
+.prompt-input-container {
+  border-bottom: 1px solid var(--nyth-brass-dim);
+  background: var(--nyth-header-surface);
+}
+
+.prompt-input {
+  color: var(--text-normal);
+  background: transparent;
+}
+
+.suggestion-item {
+  border-inline-start: 2px solid transparent;
+}
+
+.suggestion-item.is-selected {
+  color: var(--text-normal);
+  border-inline-start-color: var(--nyth-brass);
+  background: var(--nyth-active-surface);
+}
+
+.suggestion-aux,
+.suggestion-note {
+  color: var(--text-faint);
+}
+
+.vertical-tab-header {
+  border-inline-end: 1px solid var(--nyth-brass-dim);
+  background: var(--nyth-sidebar-surface);
+}
+
+.vertical-tab-nav-item {
+  border-inline-start: 2px solid transparent;
+  color: var(--text-muted);
+}
+
+.vertical-tab-nav-item:hover {
+  color: var(--text-normal);
+  background: color-mix(in oklch, var(--nyth-brass) 7%, transparent);
+}
+
+.vertical-tab-nav-item.is-active {
+  color: var(--text-accent);
+  border-inline-start-color: var(--nyth-brass);
+  background: var(--nyth-active-surface);
+}
+
+.setting-item {
+  border-top-color: color-mix(in oklch, var(--nyth-brass-dim) 48%, transparent);
+}
+
+.setting-item-name {
+  color: var(--text-normal);
+}
+
+.setting-item-description {
+  color: var(--text-muted);
+}
+
+button,
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select,
+.dropdown {
+  border: 1px solid var(--nyth-brass-dim);
+  box-shadow: inset 0 1px color-mix(in oklch, var(--nyth-brass) 8%, transparent);
+}
+
+button:hover,
+select:hover,
+.dropdown:hover {
+  border-color: var(--nyth-brass);
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus-visible {
+  border-color: var(--nyth-brass-bright);
+  box-shadow: 0 0 0 2px color-mix(in oklch, var(--nyth-brass-bright) 16%, transparent);
+}
+
+button.mod-cta {
+  color: var(--text-on-accent);
+  border-color: var(--nyth-brass-bright);
+  background: linear-gradient(180deg, var(--nyth-brass-bright), var(--nyth-brass));
+}
+
+button.mod-warning,
+button.mod-destructive {
+  color: #f7e5d8;
+  border-color: color-mix(in oklch, var(--color-red) 68%, var(--nyth-brass-dim));
+  background: color-mix(in oklch, var(--color-red) 62%, var(--background-secondary));
+}
+
+.checkbox-container {
+  border: 1px solid var(--nyth-brass-dim);
+  background: var(--interactive-normal);
+  box-shadow: inset 0 1px 3px color-mix(in oklch, var(--nyth-shadow) 28%, transparent);
+}
+
+.checkbox-container.is-enabled {
+  border-color: var(--nyth-brass-bright);
+  background: var(--interactive-accent);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border: 1px solid var(--nyth-brass-bright);
+  background: var(--nyth-brass);
+}
+
+.tooltip {
+  color: var(--text-normal);
+  border: 1px solid var(--nyth-brass-dim);
+  border-radius: 2px;
+  background: var(--background-secondary-alt);
+  box-shadow: 0 8px 22px color-mix(in oklch, var(--nyth-shadow) 42%, transparent);
+}
+
+.notice {
+  color: var(--text-normal);
+  border: 1px solid var(--nyth-brass-dim);
+  border-inline-start: 3px solid var(--nyth-brass);
+  border-radius: 2px;
+  background: color-mix(in oklch, var(--background-secondary-alt) 90%, var(--nyth-brass-dim));
+  box-shadow: 0 10px 28px color-mix(in oklch, var(--nyth-shadow) 42%, transparent);
+}
+
+.popover {
+  border: 1px solid var(--nyth-brass-dim);
+  background: var(--background-primary);
+  box-shadow: 0 14px 38px color-mix(in oklch, var(--nyth-shadow) 48%, transparent);
+}
+
+/* Graph view: a restrained celestial catalogue. */
+.graph-view {
+  background:
+    radial-gradient(circle at 50% 45%, color-mix(in oklch, var(--nyth-brass) 4%, transparent), transparent 42%),
+    var(--background-primary);
+}
+
+.theme-dark .graph-view canvas {
+  filter: saturate(0.68) contrast(0.96) brightness(0.94);
+}
+
+.theme-light .graph-view canvas {
+  filter: saturate(0.74) contrast(0.96) brightness(0.98);
+}
+
+.graph-controls,
+.graph-control-section {
+  color: var(--text-muted);
+}
+
+.graph-controls {
+  border: 1px solid var(--nyth-brass-dim);
+  border-radius: 2px;
+  background: color-mix(in oklch, var(--background-secondary) 94%, var(--nyth-brass-dim));
+  box-shadow: 0 12px 34px color-mix(in oklch, var(--nyth-shadow) 38%, transparent), inset 0 1px color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.graph-control-section:not(:last-child) {
+  border-bottom: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 62%, transparent);
+}
+
+.graph-control-section-header {
+  color: var(--text-accent);
+  letter-spacing: 0.025em;
+}
+
+.graph-control-section .tree-item-self:hover {
+  color: var(--text-normal);
+}
+
+.graph-controls input[type="text"],
+.graph-controls input[type="search"] {
+  background: var(--background-primary);
+}
+
+.graph-controls .clickable-icon:hover {
+  color: var(--nyth-brass-bright);
+  background: color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+/* Canvas: an archival working table. */
+.canvas-wrapper {
+  --canvas-background: var(--background-primary);
+  background:
+    radial-gradient(circle at 50% 45%, color-mix(in oklch, var(--nyth-brass) 3%, transparent), transparent 45%),
+    var(--background-primary);
+}
+
+.canvas-node-container {
+  border: 1px solid var(--nyth-brass-dim);
+  border-radius: 2px;
+  background: linear-gradient(
+    145deg,
+    color-mix(in oklch, var(--background-primary-alt) 94%, var(--nyth-brass-dim)),
+    var(--background-primary)
+  );
+  box-shadow:
+    0 10px 28px color-mix(in oklch, var(--nyth-shadow) 30%, transparent),
+    inset 0 1px color-mix(in oklch, var(--nyth-brass) 9%, transparent);
+}
+
+.canvas-node.is-themed .canvas-node-container {
+  border-color: color-mix(
+    in oklch,
+    rgb(var(--canvas-color, 184, 142, 72)) 46%,
+    var(--nyth-brass-dim)
+  );
+}
+
+.canvas-node.is-selected .canvas-node-container {
+  border-color: var(--nyth-brass-bright);
+  box-shadow:
+    0 0 0 2px color-mix(in oklch, var(--nyth-brass-bright) 20%, transparent),
+    0 12px 32px color-mix(in oklch, var(--nyth-shadow) 36%, transparent);
+}
+
+.canvas-node-content {
+  background: transparent;
+}
+
+.canvas-node-label {
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.canvas-node-group .canvas-node-container {
+  border-width: 1px;
+  border-radius: 2px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.canvas-node-group .canvas-node-content {
+  background: color-mix(
+    in oklch,
+    rgb(var(--canvas-color, 184, 142, 72)) 2%,
+    transparent
+  );
+}
+
+.canvas-node-group.is-themed .canvas-node-container {
+  border-color: color-mix(
+    in oklch,
+    rgb(var(--canvas-color, 184, 142, 72)) 30%,
+    var(--nyth-brass-dim)
+  );
+}
+
+.canvas-group-label {
+  color: var(--text-normal);
+  border: 1px solid var(--nyth-brass-dim);
+  border-radius: 2px;
+  padding: 0.18em 0.55em;
+  background: color-mix(in oklch, var(--background-secondary) 92%, var(--nyth-brass-dim));
+  box-shadow: 0 5px 16px color-mix(in oklch, var(--nyth-shadow) 28%, transparent);
+}
+
+.canvas-node-group.is-themed .canvas-group-label:not([contenteditable="true"]),
+.canvas-node-group.is-themed .canvas-group-label.mod-foreground-light:not([contenteditable="true"]),
+.canvas-node-group.is-themed .canvas-group-label.mod-foreground-dark:not([contenteditable="true"]) {
+  color: var(--text-normal);
+  border-color: color-mix(
+    in oklch,
+    rgb(var(--canvas-color, 184, 142, 72)) 32%,
+    var(--nyth-brass-dim)
+  );
+  background: color-mix(
+    in oklch,
+    rgb(var(--canvas-color, 184, 142, 72)) 10%,
+    var(--background-secondary)
+  );
+}
+
+.canvas-edge-label {
+  color: var(--text-normal);
+  border: 1px solid var(--nyth-brass-dim);
+  border-radius: 2px;
+  padding: 0.12em 0.38em;
+  background: color-mix(in oklch, var(--background-secondary) 92%, var(--nyth-brass-dim));
+  box-shadow: 0 4px 12px color-mix(in oklch, var(--nyth-shadow) 25%, transparent);
+}
+
+.canvas-control-group,
+.canvas-card-menu {
+  border: 1px solid var(--nyth-brass-dim);
+  border-radius: 2px;
+  background: color-mix(in oklch, var(--background-secondary) 94%, var(--nyth-brass-dim));
+  box-shadow:
+    0 8px 24px color-mix(in oklch, var(--nyth-shadow) 34%, transparent),
+    inset 0 1px color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.canvas-control-group .clickable-icon,
+.canvas-card-menu .clickable-icon {
+  color: var(--text-muted);
+}
+
+.canvas-control-group .clickable-icon:hover,
+.canvas-card-menu .clickable-icon:hover {
+  color: var(--nyth-brass-bright);
+  background: color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.canvas-node-resizer {
+  border-color: var(--nyth-brass-bright);
+  background: var(--background-primary);
+}
+
+.search-input-container input {
+  border-color: var(--nyth-brass-dim);
+  background: color-mix(in oklch, var(--background-primary) 94%, var(--nyth-brass-dim));
+}
+
+.search-result-file-title {
+  color: var(--text-accent);
+  border-bottom: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 42%, transparent);
+}
+
+.search-result-file-match {
+  color: var(--text-muted);
+  border-inline-start: 2px solid transparent;
+}
+
+.search-result-file-match:hover {
+  color: var(--text-normal);
+  border-inline-start-color: var(--nyth-brass);
+  background: var(--nyth-active-surface);
+}
+
+.menu-separator {
+  border-color: var(--nyth-brass-dim);
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in oklch, var(--nyth-brass-dim) 76%, var(--background-secondary));
+  border: 2px solid var(--background-secondary);
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in oklch, var(--nyth-brass) 70%, var(--background-secondary));
+}
+
+::-webkit-scrollbar-track {
+  background: color-mix(in oklch, var(--background-secondary) 94%, var(--nyth-shadow));
+}
+
+/* Writing desk: Live Preview and source mode. */
+.markdown-source-view.mod-cm6 .cm-editor {
+  caret-color: var(--caret-color);
+}
+
+.markdown-source-view.mod-cm6 .cm-cursor,
+.markdown-source-view.mod-cm6 .cm-dropCursor {
+  border-inline-start: 2px solid var(--caret-color);
+}
+
+.markdown-source-view.mod-cm6 .cm-selectionBackground,
+.markdown-source-view.mod-cm6 .cm-editor > .cm-scroller > .cm-selectionLayer > .cm-selectionBackground {
+  background: var(--text-selection);
+}
+
+.markdown-source-view.mod-cm6 .cm-activeLine {
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklch, var(--nyth-brass) 7%, transparent),
+    color-mix(in oklch, var(--nyth-brass) 2%, transparent) 58%,
+    transparent
+  );
+  box-shadow: inset 2px 0 color-mix(in oklch, var(--nyth-brass) 62%, transparent);
+}
+
+.markdown-source-view.mod-cm6 .cm-gutters {
+  background: color-mix(in oklch, var(--background-primary) 96%, var(--nyth-brass-dim));
+}
+
+.markdown-source-view.mod-cm6 .cm-lineNumbers .cm-gutterElement {
+  color: var(--text-faint);
+  padding-inline: 0.55em 0.75em;
+}
+
+.markdown-source-view.mod-cm6 .cm-activeLineGutter {
+  color: var(--nyth-brass-bright);
+  background: color-mix(in oklch, var(--nyth-brass) 9%, transparent);
+}
+
+.markdown-source-view.mod-cm6 .cm-formatting,
+.markdown-source-view.mod-cm6 .cm-comment,
+.markdown-source-view.mod-cm6 .cm-meta {
+  color: var(--text-faint);
+}
+
+.markdown-source-view.mod-cm6 .cm-formatting-header,
+.markdown-source-view.mod-cm6 .cm-formatting-list,
+.markdown-source-view.mod-cm6 .cm-formatting-task {
+  color: color-mix(in oklch, var(--text-faint) 68%, var(--nyth-brass));
+}
+
+.markdown-source-view.mod-cm6 .cm-url,
+.markdown-source-view.mod-cm6 .cm-string.cm-url {
+  color: var(--link-external-color);
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-frontmatter {
+  color: var(--text-muted);
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-quote {
+  color: var(--text-muted);
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklch, var(--blockquote-border-color) 8%, transparent),
+    transparent 76%
+  );
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  color: var(--code-normal);
+  background: var(--code-background);
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-codeblock-begin {
+  border-block-start: 1px solid var(--nyth-brass-dim);
+  border-start-start-radius: 2px;
+  border-start-end-radius: 2px;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-codeblock-end {
+  border-block-end: 1px solid var(--nyth-brass-dim);
+  border-end-start-radius: 2px;
+  border-end-end-radius: 2px;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock {
+  border-inline-start: 2px solid color-mix(in oklch, var(--nyth-brass) 72%, transparent);
+}
+
+.cm-fold-indicator .collapse-indicator,
+.cm-gutterElement .collapse-indicator,
+.collapse-indicator,
+.fold-gutter {
+  color: var(--text-faint);
+}
+
+.cm-line:hover .cm-fold-indicator .collapse-indicator,
+.cm-fold-indicator.is-collapsed .collapse-indicator,
+.fold-gutter.is-collapsed,
+.fold-gutter:hover {
+  color: var(--nyth-brass-bright);
+}
+
+.markdown-source-view.mod-cm6 input[type="checkbox"],
+.markdown-rendered input[type="checkbox"] {
+  border: 1px solid var(--checkbox-border-color);
+  box-shadow: inset 0 1px color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.markdown-source-view.mod-cm6 input[type="checkbox"]:hover,
+.markdown-rendered input[type="checkbox"]:hover {
+  border-color: var(--checkbox-border-color-hover);
+}
+
+.markdown-source-view.mod-cm6 input[type="checkbox"]:checked,
+.markdown-rendered input[type="checkbox"]:checked {
+  border-color: var(--checkbox-color);
+  background-color: var(--checkbox-color);
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-source-view .HyperMD-header {
+  font-family: var(--nyth-font);
+  color: var(--text-normal);
+  letter-spacing: 0.035em;
+}
+
+.markdown-rendered h1,
+.markdown-source-view .HyperMD-header-1 {
+  color: var(--text-accent);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.28em;
+}
+
+.markdown-rendered h2,
+.markdown-source-view .HyperMD-header-2 {
+  color: color-mix(in oklch, var(--text-normal) 82%, var(--text-accent));
+}
+
+.markdown-rendered a,
+.cm-hmd-internal-link,
+.cm-link {
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+.markdown-rendered a:hover,
+.cm-hmd-internal-link:hover,
+.cm-link:hover {
+  text-shadow: 0 0 12px color-mix(in oklch, var(--link-color-hover) 22%, transparent);
+}
+
+.markdown-rendered .internal-link.is-unresolved,
+.is-unresolved .cm-underline {
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
+}
+
+.markdown-rendered strong,
+.cm-strong {
+  color: color-mix(in oklch, var(--text-normal) 72%, var(--nyth-brass-bright));
+}
+
+.markdown-rendered blockquote {
+  position: relative;
+  border-inline-start-width: 2px;
+  border-block: 1px solid color-mix(in oklch, var(--blockquote-border-color) 24%, transparent);
+  padding: 0.72em 1.15em 0.72em 1.35em;
+  color: var(--text-muted);
+  background: linear-gradient(90deg, color-mix(in oklch, var(--blockquote-border-color) 9%, transparent), transparent 76%);
+}
+
+.markdown-rendered blockquote::before {
+  content: "";
+  position: absolute;
+  inset: 0.45em auto 0.45em -2px;
+  width: 2px;
+  background: linear-gradient(180deg, transparent, var(--nyth-brass-bright), transparent);
+}
+
+/* A quotation directly beneath the document title is treated as an epigraph. */
+.markdown-rendered h1 + blockquote {
+  border: 0;
+  margin-block: 1.1em 0.9em;
+  padding: 0.8em 1.5em;
+  text-align: center;
+  background: radial-gradient(ellipse at center, color-mix(in oklch, var(--nyth-brass) 8%, transparent), transparent 72%);
+}
+
+.markdown-rendered h1 + blockquote::before {
+  display: none;
+}
+
+.markdown-rendered h1 + blockquote p {
+  margin-block: 0.22em;
+}
+
+.markdown-rendered p {
+  margin-block: 0 var(--p-spacing);
+}
+
+.markdown-rendered img:not(.emoji) {
+  border: 1px solid var(--background-modifier-border);
+  outline: 1px solid color-mix(in oklch, var(--background-modifier-border) 36%, transparent);
+  outline-offset: 3px;
+  box-shadow: 0 10px 28px color-mix(in oklch, var(--color-base-00) 52%, transparent);
+}
+
+.markdown-rendered em {
+  color: color-mix(in oklch, var(--text-normal) 84%, var(--text-muted));
+}
+
+.markdown-rendered li::marker {
+  color: var(--nyth-brass);
+}
+
+.markdown-rendered ul > li::marker {
+  content: "◆  ";
+  font-size: 0.58em;
+}
+
+.markdown-rendered mark,
+.cm-highlight {
+  color: var(--text-normal);
+  border-bottom: 1px solid color-mix(in oklch, var(--nyth-brass) 68%, transparent);
+  background: var(--text-highlight-bg);
+}
+
+.markdown-rendered code,
+.cm-inline-code {
+  color: var(--code-normal);
+  border: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 58%, transparent);
+  border-radius: 2px;
+  padding: 0.08em 0.28em;
+}
+
+.markdown-rendered pre {
+  border: 1px solid var(--nyth-brass-dim);
+  border-inline-start: 3px solid var(--nyth-brass);
+  box-shadow: inset 0 1px color-mix(in oklch, var(--nyth-brass) 10%, transparent);
+}
+
+.markdown-rendered hr {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--background-modifier-border) 18%,
+    var(--text-accent) 50%,
+    var(--background-modifier-border) 82%,
+    transparent
+  );
+}
+
+.callout {
+  position: relative;
+  border-width: 1px;
+  border-inline-start-width: 3px;
+  border-color: color-mix(in oklch, rgb(var(--callout-color)) 42%, var(--nyth-brass-dim));
+  border-inline-start-color: color-mix(in oklch, rgb(var(--callout-color)) 82%, var(--nyth-brass-dim));
+  box-shadow: none;
+  background: linear-gradient(135deg, color-mix(in oklch, rgb(var(--callout-color)) 11%, var(--background-primary)), var(--background-primary) 82%);
+  overflow: hidden;
+}
+
+.callout::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 1px;
+  background: linear-gradient(90deg, rgb(var(--callout-color)), transparent 68%);
+  opacity: 0.42;
+}
+
+.callout-title {
+  padding-bottom: 0.42em;
+  border-bottom: 1px solid color-mix(in oklch, rgb(var(--callout-color)) 24%, transparent);
+  color: color-mix(in oklch, rgb(var(--callout-color)) 48%, var(--text-normal));
+  letter-spacing: 0.025em;
+}
+
+.callout-content {
+  color: color-mix(in oklch, var(--text-normal) 90%, var(--text-muted));
+  line-height: 1.58;
+}
+
+.callout-content > :last-child {
+  margin-bottom: 0;
+}
+
+/* Archival semantic palette for Obsidian's standard callout types. */
+.callout[data-callout="note"] {
+  --callout-color: 184, 142, 72;
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] {
+  --callout-color: 132, 151, 130;
+}
+
+.callout[data-callout="info"] {
+  --callout-color: 105, 137, 139;
+}
+
+.callout[data-callout="todo"] {
+  --callout-color: 158, 126, 79;
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="hint"],
+.callout[data-callout="important"],
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  --callout-color: 108, 148, 107;
+}
+
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  --callout-color: 154, 126, 170;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  --callout-color: 194, 132, 67;
+}
+
+.callout[data-callout="failure"],
+.callout[data-callout="fail"],
+.callout[data-callout="missing"] {
+  --callout-color: 174, 87, 65;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"] {
+  --callout-color: 177, 66, 58;
+}
+
+.callout[data-callout="bug"] {
+  --callout-color: 146, 78, 93;
+}
+
+.callout[data-callout="example"] {
+  --callout-color: 135, 104, 154;
+}
+
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  --callout-color: 146, 133, 107;
+}
+
+/* Optional Nytharael callouts; these styles do not alter note semantics. */
+.callout[data-callout="record"] {
+  --callout-color: 184, 142, 72;
+  --callout-icon: lucide-archive;
+}
+
+.callout[data-callout="fragment"] {
+  --callout-color: 165, 108, 70;
+  --callout-icon: lucide-file-clock;
+}
+
+.callout[data-callout="translation"] {
+  --callout-color: 118, 147, 126;
+  --callout-icon: lucide-languages;
+}
+
+.callout[data-callout="curator"] {
+  --callout-color: 132, 101, 153;
+  --callout-icon: lucide-eye;
+}
+
+.metadata-container {
+  border-block: 1px solid var(--background-modifier-border);
+  padding-block: 0.65em;
+  background: linear-gradient(90deg, color-mix(in oklch, var(--nyth-brass) 5%, transparent), transparent);
+}
+
+.metadata-property {
+  border-bottom: 1px solid color-mix(in oklch, var(--nyth-brass-dim) 35%, transparent);
+}
+
+.metadata-property:last-child {
+  border-bottom: 0;
+}
+
+.metadata-property-key {
+  color: var(--text-muted);
+}
+
+.metadata-property-value {
+  color: var(--text-normal);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.markdown-rendered table {
+  width: 100%;
+  font-size: 0.94em;
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 7px 18px color-mix(in oklch, var(--nyth-shadow) 16%, transparent);
+}
+
+.markdown-rendered td,
+.markdown-rendered th {
+  padding: 0.42em 0.62em;
+  border-color: color-mix(in oklch, var(--nyth-brass-dim) 76%, transparent);
+}
+
+.markdown-rendered th {
+  color: var(--text-accent);
+  background: linear-gradient(180deg, color-mix(in oklch, var(--interactive-accent) 12%, transparent), color-mix(in oklch, var(--interactive-accent) 5%, transparent));
+  letter-spacing: 0.025em;
+}
+
+.markdown-rendered thead {
+  border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.markdown-rendered tbody tr:nth-child(even) {
+  background: color-mix(in oklch, var(--nyth-brass) 3.5%, transparent);
+}
+
+.markdown-rendered tbody tr:hover {
+  background: color-mix(in oklch, var(--nyth-brass) 8%, transparent);
+}
+
+.tag {
+  border: 1px solid var(--tag-border-color);
+  box-shadow: inset 0 1px color-mix(in oklch, var(--nyth-brass) 9%, transparent);
+}
+
+.search-result-file-matched-text,
+.suggestion-highlight,
+.is-flashing {
+  color: var(--text-normal);
+  background: var(--text-highlight-bg);
+  box-shadow: 0 0 0 1px color-mix(in oklch, var(--nyth-brass) 38%, transparent);
+}
+
+input[type="checkbox"] {
+  border-radius: 1px;
+}
+
+::selection {
+  background: var(--text-selection);
+}
+
+@media (max-width: 700px) {
+  body {
+    --font-text-size: 18px;
+    --file-margins: var(--size-4-4);
+  }
+}
